@@ -230,7 +230,12 @@ $jsonPromoFlex = [
 		  [
 			"type" => "button",
 			"style" => "primary",
-			"text" => "tew"
+			"text" => "tew",
+			"action" => [
+				"type" => "uri",
+				"label" => "Primary style button",
+				"uri" => "https://example.com"
+			]
 		  ]
 		]
 	  ]
