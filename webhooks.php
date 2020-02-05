@@ -228,7 +228,7 @@ $jsonPromoFlex = [
 		"spacing" => "sm",
 		"contents" => [
 		  [
-			"type" => "button",
+			"type" => "text",
 			"style" => "primary",
 			"text" => "tew",
 			"action" => [
