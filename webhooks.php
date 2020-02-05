@@ -92,180 +92,128 @@ $jsonFlex = [
 		  "spacing"=> "sm",
 		  "paddingAll"=> "13px"
 		]
-	  ],
-	  [
-		"type"=> "bubble",
-		"size"=> "micro",
-		"hero"=> [
-		  "type"=> "image",
-		  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip11.jpg",
-		  "size"=> "full",
-		  "aspectMode"=> "cover",
-		  "aspectRatio"=> "320=>213"
-		],
-		"body"=> [
-		  "type"=> "box",
-		  "layout"=> "vertical",
-		  "contents"=> [
-			[
-			  "type"=> "text",
-			  "text"=> "Brow&Cony's Restaurant",
-			  "weight"=> "bold",
-			  "size"=> "sm",
-			  "wrap"=> true
-			],
-			[
-			  "type"=> "box",
-			  "layout"=> "baseline",
-			  "contents"=> [
-				[
-				  "type"=> "icon",
-				  "size"=> "xs",
-				  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				],
-				[
-				  "type"=> "icon",
-				  "size"=> "xs",
-				  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				],
-				[
-				  "type"=> "icon",
-				  "size"=> "xs",
-				  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				],
-				[
-				  "type"=> "icon",
-				  "size"=> "xs",
-				  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				],
-				[
-				  "type"=> "icon",
-				  "size"=> "xs",
-				  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-				],
-				[
-				  "type"=> "text",
-				  "text"=> "4.0",
-				  "size"=> "sm",
-				  "color"=> "#8c8c8c",
-				  "margin"=> "md",
-				  "flex"=> 0
-				]
-			  ]
-			],
-			[
-			  "type"=> "box",
-			  "layout"=> "vertical",
-			  "contents"=> [
-				[
-				  "type"=> "box",
-				  "layout"=> "baseline",
-				  "spacing"=> "sm",
-				  "contents"=> [
-					[
-					  "type"=> "text",
-					  "text"=> "東京旅行",
-					  "wrap"=> true,
-					  "color"=> "#8c8c8c",
-					  "size"=> "xs",
-					  "flex"=> 5
-					]
-				  ]
-				]
-			  ]
-			]
-		  ],
-		  "spacing"=> "sm",
-		  "paddingAll"=> "13px"
-		]
-	  ],
-	  [
-		"type"=> "bubble",
-		"size"=> "micro",
-		"hero"=> [
-		  "type"=> "image",
-		  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip12.jpg",
-		  "size"=> "full",
-		  "aspectMode"=> "cover",
-		  "aspectRatio"=> "320=>213"
-		],
-		"body"=> [
-		  "type"=> "box",
-		  "layout"=> "vertical",
-		  "contents"=> [
-			[
-			  "type"=> "text",
-			  "text"=> "Tata",
-			  "weight"=> "bold",
-			  "size"=> "sm"
-			],
-			[
-			  "type"=> "box",
-			  "layout"=> "baseline",
-			  "contents"=> [
-				[
-				  "type"=> "icon",
-				  "size"=> "xs",
-				  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				],
-				[
-				  "type"=> "icon",
-				  "size"=> "xs",
-				  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				],
-				[
-				  "type"=> "icon",
-				  "size"=> "xs",
-				  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				],
-				[
-				  "type"=> "icon",
-				  "size"=> "xs",
-				  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				],
-				[
-				  "type"=> "icon",
-				  "size"=> "xs",
-				  "url"=> "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-				],
-				[
-				  "type"=> "text",
-				  "text"=> "4.0",
-				  "size"=> "sm",
-				  "color"=> "#8c8c8c",
-				  "margin"=> "md",
-				  "flex"=> 0
-				]
-			  ]
-			],
-			[
-			  "type"=> "box",
-			  "layout"=> "vertical",
-			  "contents"=> [
-				[
-				  "type"=> "box",
-				  "layout"=> "baseline",
-				  "spacing"=> "sm",
-				  "contents"=> [
-					[
-					  "type"=> "text",
-					  "text"=> "東京旅行",
-					  "wrap"=> true,
-					  "color"=> "#8c8c8c",
-					  "size"=> "xs",
-					  "flex"=> 5
-					]
-				  ]
-				]
-			  ]
-			]
-		  ],
-		  "spacing"=> "sm",
-		  "paddingAll"=> "13px"
-		]
 	  ]
 	]
 ];
+
+$jsonSlipFlex = [
+		"type" => "flex",
+		"altText" => "Hello Flex Message",
+		"contents" => [
+		  "type" => "bubble",
+		  "direction" => "ltr",
+		  "header" => [
+			"type" => "box",
+			"layout" => "vertical",
+			"contents" => [
+			  [
+				"type" => "text",
+				"text" => "Purchase",
+				"size" => "lg",
+				"align" => "start",
+				"weight" => "bold",
+				"color" => "#009813"
+			  ],
+			  [
+				"type" => "text",
+				"text" => "฿ 100.00",
+				"size" => "3xl",
+				"weight" => "bold",
+				"color" => "#000000"
+			  ],
+			  [
+				"type" => "text",
+				"text" => "Rabbit Line Pay",
+				"size" => "lg",
+				"weight" => "bold",
+				"color" => "#000000"
+			  ],
+			  [
+				"type" => "text",
+				"text" => "2019.02.14 21:47 (GMT+0700)",
+				"size" => "xs",
+				"color" => "#B2B2B2"
+			  ],
+			  [
+				"type" => "text",
+				"text" => "Payment complete.",
+				"margin" => "lg",
+				"size" => "lg",
+				"color" => "#000000"
+			  ]
+			]
+		  ],
+		  "body" => [
+			"type" => "box",
+			"layout" => "vertical",
+			"contents" => [
+			  [
+				"type" => "separator",
+				"color" => "#C3C3C3"
+			  ],
+			  [
+				"type" => "box",
+				"layout" => "baseline",
+				"margin" => "lg",
+				"contents" => [
+				  [
+					"type" => "text",
+					"text" => "Merchant",
+					"align" => "start",
+					"color" => "#C3C3C3"
+				  ],
+				  [
+					"type" => "text",
+					"text" => "BTS 01",
+					"align" => "end",
+					"color" => "#000000"
+				  ]
+				]
+			  ],
+			  [
+				"type" => "box",
+				"layout" => "baseline",
+				"margin" => "lg",
+				"contents" => [
+				  [
+					"type" => "text",
+					"text" => "New balance",
+					"color" => "#C3C3C3"
+				  ],
+				  [
+					"type" => "text",
+					"text" => "฿ 45.57",
+					"align" => "end"
+				  ]
+				]
+			  ],
+			  [
+				"type" => "separator",
+				"margin" => "lg",
+				"color" => "#C3C3C3"
+			  ]
+			]
+		  ],
+		  "footer" => [
+			"type" => "box",
+			"layout" => "horizontal",
+			"contents" => [
+			  [
+				"type" => "text",
+				"text" => "View Details",
+				"size" => "lg",
+				"align" => "start",
+				"color" => "#0084B6",
+				"action" => [
+				  "type" => "uri",
+				  "label" => "View Details",
+				  "uri" => "https://google.co.th/"
+				]
+			  ]
+			]
+		  ]
+		]
+	  ];
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
@@ -288,6 +236,9 @@ if (!is_null($events['events'])) {
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'service') {
 			$messages = $jsonFlex;
+		}
+		if ($event['type'] == 'message' && $event['message']['text'] == 'mybooking') {
+			$messages = $jsonSlipFlex;
 		}
 		// Make a POST Request to Messaging API to reply to sender
 		
