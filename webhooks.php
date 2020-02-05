@@ -64,15 +64,15 @@ $jsonSlipFlex = [
 			]
 		  ],
 		  [
+			"type" => "separator",
+			"margin" => "lg",
+			"color" => "#C3C3C3"
+		  ],
+		  [
 			"type" => "box",
 			"layout" => "baseline",
 			"margin" => "lg",
 			"contents" => [
-				[
-					"type" => "separator",
-					"margin" => "lg",
-					"color" => "#C3C3C3"
-				],
 			  [
 				"type" => "text",
 				"text" => "ผู้จอง:",
