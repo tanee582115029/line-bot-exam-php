@@ -222,6 +222,25 @@ $jsonPromoFlex = [
 		  ]
 		]
 	  ],
+	  "footer" => [
+		"type" => "box",
+		"layout" => "vertical",
+		"spacing" => "sm",
+		"contents" => [
+		  [
+			"type" => "button",
+			"text" => "View Details",
+			"size" => "lg",
+			"align" => "center",
+			"color" => "#0084B6",
+			"action" => [
+			  "type" => "uri",
+			  "label" => "View Details",
+			  "uri" => "https://google.co.th/"
+			]
+		  ]
+		]
+	  ]
 	]
 ];
 // Get POST body content
