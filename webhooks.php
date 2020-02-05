@@ -229,12 +229,8 @@ $jsonPromoFlex = [
 		"contents" => [
 		  [
 			"type" => "button",
-            "style" => "primary",
-            "action" => [
-              "type" => "uri",
-              "label" => "Add to Cart",
-              "uri" => "https://linecorp.com"
-			]
+			"style" => "primary",
+			"text" => "tew"
 		  ]
 		]
 	  ]
