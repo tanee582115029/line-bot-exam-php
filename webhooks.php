@@ -111,13 +111,15 @@ $jsonSlipFlex = [
 		"footer" => [
 			"type" => "box",
 			"layout" => "horizontal",
+			"margin" => "lg",
 			"contents" => [
 			  [
 				"type" => "text",
 				"text" => "ยกเลิกการจอง",
+				"margin" => "lg",
 				"size" => "lg",
 				"align" => "center",
-				"color" => "#0084B6",
+				"color" => "#E74C3C",
 				"action" => [
 				  "type" => "uri",
 				  "label" => "ยกเลิกการจอง",
