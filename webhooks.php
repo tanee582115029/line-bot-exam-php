@@ -42,6 +42,7 @@ $jsonSlipFlex = [
 		"contents" => [
 		  [
 			"type" => "separator",
+			"margin" => "lg",
 			"color" => "#C3C3C3"
 		  ],
 		  [
