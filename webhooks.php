@@ -222,23 +222,6 @@ $jsonPromoFlex = [
 		  ]
 		]
 	  ],
-	  "footer" => [
-		"type" => "bubble",
-		"layout" => "vertical",
-		"spacing" => "sm",
-		"contents" => [
-		  [
-			"type" => "text",
-			"style" => "primary",
-			"text" => "tew",
-			"action" => [
-				"type" => "uri",
-				"label" => "Primary style button",
-				"uri" => "https://example.com"
-			]
-		  ]
-		]
-	  ]
 	]
 ];
 // Get POST body content
