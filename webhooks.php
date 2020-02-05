@@ -286,7 +286,7 @@ $jsonFlex = '{
 		  "spacing": "sm",
 		  "contents": [
 			{
-			  "type": "button",
+			  "type": "text",
 			  "flex": 1,
 			  "gravity": "center",
 			  "action": {
