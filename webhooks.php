@@ -390,7 +390,7 @@ if (!is_null($events['events'])) {
 			$messages = $jsonSlipFlex;
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'promotion') {
-			$messages = $jsonSlipFlex;
+			$messages = $jsonPromoFlex;
 		}
 		// Make a POST Request to Messaging API to reply to sender
 		
