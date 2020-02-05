@@ -123,418 +123,183 @@ $jsonSlipFlex = [
 	]
 ];
 
-$jsonFlex = '{
+
+$jsonPromoFlex = '{
 	"type": "carousel",
 	"contents": [
 	  {
 		"type": "bubble",
-		"size": "micro",
 		"hero": {
 		  "type": "image",
-		  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip10.jpg",
 		  "size": "full",
+		  "aspectRatio": "20:13",
 		  "aspectMode": "cover",
-		  "aspectRatio": "320:213"
+		  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_5_carousel.png"
 		},
 		"body": {
 		  "type": "box",
 		  "layout": "vertical",
+		  "spacing": "sm",
 		  "contents": [
 			{
 			  "type": "text",
-			  "text": "Brown Cafe",
+			  "text": "Arm Chair, White",
+			  "wrap": true,
 			  "weight": "bold",
-			  "size": "sm",
-			  "wrap": true
+			  "size": "xl"
 			},
 			{
 			  "type": "box",
 			  "layout": "baseline",
 			  "contents": [
 				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
+				  "type": "text",
+				  "text": "$49",
+				  "wrap": true,
+				  "weight": "bold",
+				  "size": "xl",
+				  "flex": 0
 				},
 				{
 				  "type": "text",
-				  "text": "4.0",
-				  "size": "xs",
-				  "color": "#8c8c8c",
-				  "margin": "md",
+				  "text": ".99",
+				  "wrap": true,
+				  "weight": "bold",
+				  "size": "sm",
 				  "flex": 0
 				}
 			  ]
+			}
+		  ]
+		},
+		"footer": {
+		  "type": "box",
+		  "layout": "vertical",
+		  "spacing": "sm",
+		  "contents": [
+			{
+			  "type": "button",
+			  "style": "primary",
+			  "action": {
+				"type": "uri",
+				"label": "Add to Cart",
+				"uri": "https://linecorp.com"
+			  }
 			},
 			{
-			  "type": "box",
-			  "layout": "vertical",
-			  "contents": [
-				{
-				  "type": "box",
-				  "layout": "baseline",
-				  "spacing": "sm",
-				  "contents": [
-					{
-					  "type": "text",
-					  "text": "東京旅行",
-					  "wrap": true,
-					  "color": "#8c8c8c",
-					  "size": "xs",
-					  "flex": 5
-					}
-				  ]
-				}
-			  ]
+			  "type": "button",
+			  "action": {
+				"type": "uri",
+				"label": "Add to wishlist",
+				"uri": "https://linecorp.com"
+			  }
 			}
-		  ],
-		  "spacing": "sm",
-		  "paddingAll": "13px"
+		  ]
 		}
 	  },
 	  {
 		"type": "bubble",
-		"size": "micro",
 		"hero": {
 		  "type": "image",
-		  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip11.jpg",
 		  "size": "full",
+		  "aspectRatio": "20:13",
 		  "aspectMode": "cover",
-		  "aspectRatio": "320:213"
+		  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_6_carousel.png"
 		},
 		"body": {
 		  "type": "box",
 		  "layout": "vertical",
+		  "spacing": "sm",
 		  "contents": [
 			{
 			  "type": "text",
-			  "text": "Brow&Conys Restaurant",
+			  "text": "Metal Desk Lamp",
+			  "wrap": true,
 			  "weight": "bold",
-			  "size": "sm",
-			  "wrap": true
+			  "size": "xl"
 			},
 			{
 			  "type": "box",
 			  "layout": "baseline",
+			  "flex": 1,
 			  "contents": [
 				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
+				  "type": "text",
+				  "text": "$11",
+				  "wrap": true,
+				  "weight": "bold",
+				  "size": "xl",
+				  "flex": 0
 				},
 				{
 				  "type": "text",
-				  "text": "4.0",
+				  "text": ".99",
+				  "wrap": true,
+				  "weight": "bold",
 				  "size": "sm",
-				  "color": "#8c8c8c",
-				  "margin": "md",
 				  "flex": 0
 				}
 			  ]
 			},
 			{
-			  "type": "box",
-			  "layout": "vertical",
-			  "contents": [
-				{
-				  "type": "box",
-				  "layout": "baseline",
-				  "spacing": "sm",
-				  "contents": [
-					{
-					  "type": "text",
-					  "text": "東京旅行",
-					  "wrap": true,
-					  "color": "#8c8c8c",
-					  "size": "xs",
-					  "flex": 5
-					}
-				  ]
-				}
-			  ]
-			}
-		  ],
-		  "spacing": "sm",
-		  "paddingAll": "13px"
-		}
-	  },
-	  {
-		"type": "bubble",
-		"size": "micro",
-		"hero": {
-		  "type": "image",
-		  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip12.jpg",
-		  "size": "full",
-		  "aspectMode": "cover",
-		  "aspectRatio": "320:213"
-		},
-		"body": {
-		  "type": "box",
-		  "layout": "vertical",
-		  "contents": [
-			{
 			  "type": "text",
-			  "text": "Tata",
-			  "weight": "bold",
-			  "size": "sm"
-			},
-			{
-			  "type": "box",
-			  "layout": "baseline",
-			  "contents": [
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-				},
-				{
-				  "type": "icon",
-				  "size": "xs",
-				  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-				},
-				{
-				  "type": "text",
-				  "text": "4.0",
-				  "size": "sm",
-				  "color": "#8c8c8c",
-				  "margin": "md",
-				  "flex": 0
-				}
-			  ]
-			},
-			{
-			  "type": "box",
-			  "layout": "vertical",
-			  "contents": [
-				{
-				  "type": "box",
-				  "layout": "baseline",
-				  "spacing": "sm",
-				  "contents": [
-					{
-					  "type": "text",
-					  "text": "東京旅行",
-					  "wrap": true,
-					  "color": "#8c8c8c",
-					  "size": "xs",
-					  "flex": 5
-					}
-				  ]
-				}
-			  ]
-			}
-		  ],
-		  "spacing": "sm",
-		  "paddingAll": "13px"
-		}
-	  }
-	]
-}';
-
-$jsonPromoFlex = '{
-	"type": "bubble",
-	"hero": {
-	  "type": "image",
-	  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
-	  "size": "full",
-	  "aspectRatio": "20:13",
-	  "aspectMode": "cover",
-	  "action": {
-		"type": "uri",
-		"uri": "http://linecorp.com/"
-	  }
-	},
-	"body": {
-	  "type": "box",
-	  "layout": "vertical",
-	  "contents": [
-		{
-		  "type": "text",
-		  "text": "Brown Cafe",
-		  "weight": "bold",
-		  "size": "xl"
-		},
-		{
-		  "type": "box",
-		  "layout": "baseline",
-		  "margin": "md",
-		  "contents": [
-			{
-			  "type": "icon",
-			  "size": "sm",
-			  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-			},
-			{
-			  "type": "icon",
-			  "size": "sm",
-			  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-			},
-			{
-			  "type": "icon",
-			  "size": "sm",
-			  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-			},
-			{
-			  "type": "icon",
-			  "size": "sm",
-			  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
-			},
-			{
-			  "type": "icon",
-			  "size": "sm",
-			  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
-			},
-			{
-			  "type": "text",
-			  "text": "4.0",
-			  "size": "sm",
-			  "color": "#999999",
+			  "text": "Temporarily out of stock",
+			  "wrap": true,
+			  "size": "xxs",
 			  "margin": "md",
+			  "color": "#ff5551",
 			  "flex": 0
 			}
 		  ]
 		},
-		{
+		"footer": {
 		  "type": "box",
 		  "layout": "vertical",
-		  "margin": "lg",
 		  "spacing": "sm",
 		  "contents": [
 			{
-			  "type": "box",
-			  "layout": "baseline",
-			  "spacing": "sm",
-			  "contents": [
-				{
-				  "type": "text",
-				  "text": "Place",
-				  "color": "#aaaaaa",
-				  "size": "sm",
-				  "flex": 1
-				},
-				{
-				  "type": "text",
-				  "text": "Miraina Tower, 4-1-6 Shinjuku, Tokyo",
-				  "wrap": true,
-				  "color": "#666666",
-				  "size": "sm",
-				  "flex": 5
-				}
-			  ]
+			  "type": "button",
+			  "flex": 2,
+			  "style": "primary",
+			  "color": "#aaaaaa",
+			  "action": {
+				"type": "uri",
+				"label": "Add to Cart",
+				"uri": "https://linecorp.com"
+			  }
 			},
 			{
-			  "type": "box",
-			  "layout": "baseline",
-			  "spacing": "sm",
-			  "contents": [
-				{
-				  "type": "text",
-				  "text": "Time",
-				  "color": "#aaaaaa",
-				  "size": "sm",
-				  "flex": 1
-				},
-				{
-				  "type": "text",
-				  "text": "10:00 - 23:00",
-				  "wrap": true,
-				  "color": "#666666",
-				  "size": "sm",
-				  "flex": 5
-				}
-			  ]
+			  "type": "button",
+			  "action": {
+				"type": "uri",
+				"label": "Add to wish list",
+				"uri": "https://linecorp.com"
+			  }
 			}
 		  ]
 		}
-	  ]
-	},
-	"footer": {
-	  "type": "box",
-	  "layout": "vertical",
-	  "spacing": "sm",
-	  "contents": [
-		{
-		  "type": "button",
-		  "style": "link",
-		  "height": "sm",
-		  "action": {
-			"type": "uri",
-			"label": "CALL",
-			"uri": "https://linecorp.com"
-		  }
-		},
-		{
-		  "type": "button",
-		  "style": "link",
-		  "height": "sm",
-		  "action": {
-			"type": "uri",
-			"label": "WEBSITE",
-			"uri": "https://linecorp.com"
-		  }
-		},
-		{
-		  "type": "spacer",
-		  "size": "sm"
+	  },
+	  {
+		"type": "bubble",
+		"body": {
+		  "type": "box",
+		  "layout": "vertical",
+		  "spacing": "sm",
+		  "contents": [
+			{
+			  "type": "button",
+			  "flex": 1,
+			  "gravity": "center",
+			  "action": {
+				"type": "uri",
+				"label": "See more",
+				"uri": "https://linecorp.com"
+			  }
+			}
+		  ]
 		}
-	  ],
-	  "flex": 0
-	}
+	  }
+	]
 }';
 // Get POST body content
 $content = file_get_contents('php://input');
@@ -556,9 +321,9 @@ if (!is_null($events['events'])) {
 			];
 
 		}
-		if ($event['type'] == 'message' && $event['message']['text'] == 'service') {
-			$messages = json_decode($jsonFlex);
-		}
+		// if ($event['type'] == 'message' && $event['message']['text'] == 'service') {
+		// 	$messages = json_decode($jsonFlex);
+		// }
 		if ($event['type'] == 'message' && $event['message']['text'] == 'mybooking') {
 			$messages = $jsonSlipFlex;
 		}
