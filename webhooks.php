@@ -123,7 +123,7 @@ $jsonSlipFlex = [
 	]
 ];
 
-$jsonFlex = {
+$jsonFlex = '{
 	"type": "carousel",
 	"contents": [
 	  {
@@ -228,7 +228,7 @@ $jsonFlex = {
 		  "contents": [
 			{
 			  "type": "text",
-			  "text": "Brow&Cony's Restaurant",
+			  "text": "Brow&Conys Restaurant",
 			  "weight": "bold",
 			  "size": "sm",
 			  "wrap": true
@@ -384,9 +384,9 @@ $jsonFlex = {
 		}
 	  }
 	]
-  }
+}';
 
-$jsonPromoFlex = {
+$jsonPromoFlex = '{
 	"type": "bubble",
 	"hero": {
 	  "type": "image",
@@ -535,7 +535,7 @@ $jsonPromoFlex = {
 	  ],
 	  "flex": 0
 	}
-  }
+}';
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
