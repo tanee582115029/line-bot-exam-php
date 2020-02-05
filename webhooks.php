@@ -111,11 +111,11 @@ $jsonSlipFlex = [
 		"footer" => [
 			"type" => "box",
 			"layout" => "horizontal",
-			"margin" => "lg",
 			"contents" => [
 			  [
 				"type" => "text",
 				"text" => "ยกเลิกการจอง",
+				"paddingAll" => "8%",
 				"margin" => "lg",
 				"size" => "lg",
 				"align" => "center",
