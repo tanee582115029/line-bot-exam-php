@@ -401,7 +401,7 @@ $jsonShopFlex = [
 			],
 		  [
 			"type" => "box",
-			"layout" => "baseline",
+			"layout" => "horizontal",
 			"margin" => "xl",
 			"contents" => [
 			  [
@@ -418,7 +418,7 @@ $jsonShopFlex = [
 		  ],
 		  [
 			"type" => "box",
-			"layout" => "baseline",
+			"layout" => "horizontal",
 			"margin" => "xl",
 			"contents" => [
 			  [
@@ -435,7 +435,7 @@ $jsonShopFlex = [
 			  ],
 			  [
 				"type" => "box",
-				"layout" => "baseline",
+				"layout" => "horizontal",
 				"margin" => "xl",
 				"contents" => [
 				  [
