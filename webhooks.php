@@ -375,6 +375,161 @@ $jsonPromoFlex = [
 	]
 ];
 
+$jsonShopFlex = [
+	"type" => "flex",
+	"altText" => "Hello Flex Message",
+	"contents" => [
+	  "type" => "bubble",
+	  "direction" => "ltr",
+	  "header" => [
+		"type" => "box",
+		"layout" => "vertical",
+		"contents" => [
+		  [
+			"type" => "text",
+			"text" => "#55555",
+			"size" => "3xl",
+			"weight" => "bold",
+			"color" => "#000000"
+		  ],
+		  [
+			"type" => "text",
+			"text" => "นวดแผนไทย สุดผ่อนคลาย",
+			"size" => "lg",
+			"weight" => "bold",
+			"color" => "#000000"
+		  ],
+		  [
+			"type" => "text",
+			"text" => "2019.02.14 21:47 (GMT+0700)",
+			"size" => "xs",
+			"color" => "#B2B2B2"
+		  ]
+		]
+	  ],
+	  "body" => [
+		"type" => "box",
+		"layout" => "vertical",
+		"contents" => [
+		  [
+			"type" => "separator",
+			"margin" => "lg",
+			"color" => "#C3C3C3"
+		  ],
+		  [
+			"type" => "box",
+			"layout" => "baseline",
+			"margin" => "lg",
+			"contents" => [
+			  [
+				"type" => "text",
+				"text" => "x2",
+				"align" => "start",
+				"color" => "#C3C3C3"
+			  ],
+			  [
+				"type" => "text",
+				"text" => "฿ 2000",
+				"align" => "end",
+				"color" => "#000000"
+			  ]
+			]
+		  ],
+		  [
+			"type" => "separator",
+			"margin" => "lg",
+			"color" => "#C3C3C3"
+		  ],
+		  [
+			"type" => "box",
+			"layout" => "baseline",
+			"margin" => "lg",
+			"contents" => [
+			  [
+				"type" => "text",
+				"text" => "ผู้จอง:",
+				"align" => "start",
+				"color" => "#C3C3C3"
+			  ],
+			  [
+				"type" => "text",
+				"text" => "พี่รินริน",
+				"align" => "end",
+				"color" => "#000000"
+			  ]
+			]
+		  ],
+		  [
+			"type" => "box",
+			"layout" => "baseline",
+			"margin" => "lg",
+			"contents" => [
+			  [
+				"type" => "text",
+				"text" => "หมายเหตุ:",
+				"align" => "start",
+				"color" => "#C3C3C3"
+			  ],
+			  [
+				"type" => "text",
+				"text" => "ขอมือหนักๆ",
+				"align" => "end",
+				"color" => "#000000"
+			  ]
+			]
+		  ]
+		]
+		],
+		"footer" => [
+			"type" => "box",
+			"layout" => "horizontal",
+			"paddingAll" => "8%",
+			"contents" => [
+			  [
+				"type" => "text",
+				"text" => "ยกเลิกการจอง",
+				"margin" => "lg",
+				"size" => "lg",
+				"align" => "center",
+				"color" => "#E74C3C",
+				"action" => [
+				  "type" => "message",
+				  "label" => "โทรออก",
+				  "text" => "โทรออก"
+				]
+				],
+				[
+					"type" => "text",
+					"text" => "ยกเลิกการจอง",
+					"margin" => "lg",
+					"size" => "lg",
+					"align" => "center",
+					"color" => "#E74C3C",
+					"action" => [
+					  "type" => "message",
+					  "label" => "นำทาง",
+					  "text" => "นำทาง"
+					]
+					],			  
+					[
+						"type" => "text",
+						"text" => "ยกเลิกการจอง",
+						"margin" => "lg",
+						"size" => "lg",
+						"align" => "center",
+						"color" => "#E74C3C",
+						"action" => [
+						  "type" => "message",
+						  "label" => "เพิ่มเติม",
+						  "text" => "เพิ่มเติม"
+						]
+					  ]
+			]
+		]
+
+	]
+];
+
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
