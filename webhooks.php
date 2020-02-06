@@ -152,6 +152,7 @@ $jsonCanceledSlipFlex = [
 						"type" => "text",
 						"text" => "#515521",
 						"size" => "3xl",
+						"align" => "start",
 						"weight" => "bold",
 						"color" => "#000000"
 					  ],
@@ -159,6 +160,7 @@ $jsonCanceledSlipFlex = [
 						"type" => "text",
 						"text" => "ยกเลิกแ้ว",
 						"size" => "md",
+						"align" => "end",
 						"weight" => "bold",
 						"color" => "#000000"
 					  ],
