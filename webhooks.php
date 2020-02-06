@@ -274,14 +274,33 @@ $jsonPromoFlex = [
 		"contents" => [
 			[
 				"type" => "text",
+				"text" => "จองล่วงหน้าลดทันที",
+				"size" => "xl",
+				"weight" => "bold",
+				"color" => "#000000"
+			],
+			[
+				"type" => "text",
+				"text" => "01/01/2020 - 31/01/2020",
+				"size" => "md",
+				"color" => "#B2B2B2"
+			],
+			[
+				"type" => "text",
+				"text" => "15%",
+				"size" => "md",
+				"weight" => "bold",
+				"color" => "#E74C3C"
+			],
+			[
+				"type" => "text",
 				"contents" => [],
 				"size" => "sm",
 				"wrap" => true,
 				"margin" => "lg",
 				"color" => "#ffffffde",
 				"text" => "Private Pool, Delivery box, Floor heating, Private Cinema"
-			]
-            ]
+			],
 		],
 		],
 		"footer" => [
