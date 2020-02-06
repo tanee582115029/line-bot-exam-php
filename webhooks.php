@@ -387,23 +387,10 @@ $jsonShopFlex = [
 		"contents" => [
 		  [
 			"type" => "text",
-			"text" => "#55555",
+			"text" => "A-SHOP",
 			"size" => "3xl",
 			"weight" => "bold",
 			"color" => "#000000"
-		  ],
-		  [
-			"type" => "text",
-			"text" => "นวดแผนไทย สุดผ่อนคลาย",
-			"size" => "lg",
-			"weight" => "bold",
-			"color" => "#000000"
-		  ],
-		  [
-			"type" => "text",
-			"text" => "2019.02.14 21:47 (GMT+0700)",
-			"size" => "xs",
-			"color" => "#B2B2B2"
 		  ]
 		]
 	  ],
@@ -412,48 +399,19 @@ $jsonShopFlex = [
 		"layout" => "vertical",
 		"contents" => [
 		  [
-			"type" => "separator",
-			"margin" => "lg",
-			"color" => "#C3C3C3"
-		  ],
-		  [
 			"type" => "box",
 			"layout" => "baseline",
 			"margin" => "lg",
 			"contents" => [
 			  [
 				"type" => "text",
-				"text" => "x2",
+				"text" => "o",
 				"align" => "start",
 				"color" => "#C3C3C3"
 			  ],
 			  [
 				"type" => "text",
-				"text" => "฿ 2000",
-				"align" => "end",
-				"color" => "#000000"
-			  ]
-			]
-		  ],
-		  [
-			"type" => "separator",
-			"margin" => "lg",
-			"color" => "#C3C3C3"
-		  ],
-		  [
-			"type" => "box",
-			"layout" => "baseline",
-			"margin" => "lg",
-			"contents" => [
-			  [
-				"type" => "text",
-				"text" => "ผู้จอง:",
-				"align" => "start",
-				"color" => "#C3C3C3"
-			  ],
-			  [
-				"type" => "text",
-				"text" => "พี่รินริน",
+				"text" => "084-488-2035",
 				"align" => "end",
 				"color" => "#000000"
 			  ]
@@ -466,18 +424,37 @@ $jsonShopFlex = [
 			"contents" => [
 			  [
 				"type" => "text",
-				"text" => "หมายเหตุ:",
+				"text" => "o",
 				"align" => "start",
 				"color" => "#C3C3C3"
 			  ],
 			  [
 				"type" => "text",
-				"text" => "ขอมือหนักๆ",
+				"text" => "123/21 เจียงใหม่ ไทยแลนด์",
 				"align" => "end",
 				"color" => "#000000"
 			  ]
 			]
-		  ]
+			  ],
+			  [
+				"type" => "box",
+				"layout" => "baseline",
+				"margin" => "lg",
+				"contents" => [
+				  [
+					"type" => "text",
+					"text" => "o",
+					"align" => "start",
+					"color" => "#C3C3C3"
+				  ],
+				  [
+					"type" => "text",
+					"text" => "จันทร์ - ศุกร์ 19:00 - 24:00",
+					"align" => "end",
+					"color" => "#000000"
+				  ]
+				]
+			  ]
 		]
 		],
 		"footer" => [
