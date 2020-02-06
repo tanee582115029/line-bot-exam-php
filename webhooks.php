@@ -381,23 +381,24 @@ $jsonShopFlex = [
 	"contents" => [
 	  "type" => "bubble",
 	  "direction" => "ltr",
-	  "header" => [
-		"type" => "box",
-		"layout" => "vertical",
-		"contents" => [
-		  [
-			"type" => "text",
-			"text" => "A-SHOP",
-			"size" => "3xl",
-			"weight" => "bold",
-			"color" => "#000000"
-		  ]
-		]
+	  "hero" => [
+		"type" => "image",
+		"url" => "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_3_movie.png",
+		"size" => "full",
+		"aspectRatio" => "20:13",
+		"aspectMode" => "cover",
 	  ],
 	  "body" => [
 		"type" => "box",
 		"layout" => "vertical",
 		"contents" => [
+			[
+				"type" => "text",
+				"text" => "A-SHOP",
+				"size" => "3xl",
+				"weight" => "bold",
+				"color" => "#000000"
+			],
 		  [
 			"type" => "box",
 			"layout" => "baseline",
