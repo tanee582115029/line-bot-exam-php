@@ -272,26 +272,17 @@ $jsonPromoFlex = [
 		"type" => "box",
 		"layout" => "vertical",
 		"contents" => [
-              [
-                "type" => "box",
-                "layout" => "vertical",
-                "contents" => [
-                  [
-                    "type" => "text",
-                    "contents" => [],
-                    "size" => "sm",
-                    "wrap" => true,
-                    "margin" => "lg",
-                    "color" => "#ffffffde",
-                    "text" => "Private Pool, Delivery box, Floor heating, Private Cinema"
-				  ]
-                ]
+			[
+				"type" => "text",
+				"contents" => [],
+				"size" => "sm",
+				"wrap" => true,
+				"margin" => "lg",
+				"color" => "#ffffffde",
+				"text" => "Private Pool, Delivery box, Floor heating, Private Cinema"
+			]
             ]
 		],
-		"paddingAll" => "13px",
-		"backgroundColor" => "#ffffff1A",
-		"cornerRadius" => "2px",
-		"margin" => "xl"
 		],
 		"footer" => [
 			"type" => "box",
