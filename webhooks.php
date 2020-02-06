@@ -22,11 +22,19 @@ $jsonSlipFlex = [
 			"color" => "#000000"
 		  ],
 		  [
+			"type" => "spacer",
+			"size" => "xs"
+		  ],
+		  [
 			"type" => "text",
 			"text" => "นวดแผนไทย สุดผ่อนคลาย",
 			"size" => "lg",
 			"weight" => "bold",
 			"color" => "#000000"
+		  ],
+		  [
+			  "type" => "spacer",
+			  "size" => "xs"
 		  ],
 		  [
 			"type" => "text",
@@ -151,7 +159,7 @@ $jsonCanceledSlipFlex = [
 					[
 						"type" => "text",
 						"text" => "#51521",
-						"size" => "xl",
+						"size" => "3xl",
 						"align" => "start",
 						"weight" => "bold",
 						"color" => "#000000"
