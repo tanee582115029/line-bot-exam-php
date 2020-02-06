@@ -482,12 +482,12 @@ $jsonShopFlex = [
 		],
 		"footer" => [
 			"type" => "box",
-			"layout" => "horizontal",
+			"layout" => "vertical",
 			"paddingAll" => "8%",
 			"contents" => [
 			  [
 				"type" => "text",
-				"text" => "ยกเลิกการจอง",
+				"text" => "โทรออก",
 				"margin" => "lg",
 				"size" => "lg",
 				"align" => "center",
@@ -500,7 +500,7 @@ $jsonShopFlex = [
 				],
 				[
 					"type" => "text",
-					"text" => "ยกเลิกการจอง",
+					"text" => "นำทาง",
 					"margin" => "lg",
 					"size" => "lg",
 					"align" => "center",
@@ -513,7 +513,7 @@ $jsonShopFlex = [
 					],			  
 					[
 						"type" => "text",
-						"text" => "ยกเลิกการจอง",
+						"text" => "เพิ่มเติม",
 						"margin" => "lg",
 						"size" => "lg",
 						"align" => "center",
@@ -553,7 +553,7 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['text'] == 'service') {
 			$messages = json_decode($jsonFlex, true);
 		}
-		if ($event['type'] == 'message' && $event['message']['text'] == 'shop') {
+		if ($event['type'] == 'message' && $event['message']['text'] == 'shopdetail') {
 			$messages = $jsonShopFlex;
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'mybooking') {
