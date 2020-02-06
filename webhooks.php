@@ -553,6 +553,9 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['text'] == 'service') {
 			$messages = json_decode($jsonFlex, true);
 		}
+		if ($event['type'] == 'message' && $event['message']['text'] == 'shop') {
+			$messages = $jsonShopFlex;
+		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'mybooking') {
 			$messages = $jsonSlipFlex;
 		}
