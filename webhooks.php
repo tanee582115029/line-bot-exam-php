@@ -261,117 +261,52 @@ $jsonPromoFlex = [
 	"contents" => [
 	  "type" => "bubble",
 	  "direction" => "ltr",
-	  "header" => [
-		"type" => "box",
-		"layout" => "vertical",
-		"contents" => [
-		  [
-			"type" => "text",
-			"text" => "Promotion",
-			"size" => "lg",
-			"align" => "start",
-			"weight" => "bold",
-			"color" => "#009813"
-		  ],
-		  [
-			"type" => "text",
-			"text" => "50 %",
-			"size" => "3xl",
-			"weight" => "bold",
-			"color" => "#000000"
-		  ],
-		  [
-			"type" => "text",
-			"text" => "Rabbit Line Pay",
-			"size" => "lg",
-			"weight" => "bold",
-			"color" => "#000000"
-		  ],
-		  [
-			"type" => "text",
-			"text" => "2019.02.14 21:47 (GMT+0700)",
-			"size" => "xs",
-			"color" => "#B2B2B2"
-		  ],
-		  [
-			"type" => "text",
-			"text" => "Payment complete.",
-			"margin" => "lg",
-			"size" => "lg",
-			"color" => "#000000"
-		  ]
-		]
+	  "hero" => [
+		"type" => "image",
+		"url" => "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_3_movie.png",
+		"size" => "full",
+		"aspectRatio" => "20:13",
+		"aspectMode" => "cover",
 	  ],
 	  "body" => [
 		"type" => "box",
 		"layout" => "vertical",
 		"contents" => [
-		  [
-			"type" => "separator",
-			"color" => "#C3C3C3"
-		  ],
-		  [
-			"type" => "box",
-			"layout" => "baseline",
-			"margin" => "lg",
-			"contents" => [
-			  [
-				"type" => "text",
-				"text" => "Merchant",
-				"align" => "start",
-				"color" => "#C3C3C3"
-			  ],
-			  [
-				"type" => "text",
-				"text" => "BTS 01",
-				"align" => "end",
-				"color" => "#000000"
-			  ]
-			]
-		  ],
-		  [
-			"type" => "box",
-			"layout" => "baseline",
-			"margin" => "lg",
-			"contents" => [
-			  [
-				"type" => "text",
-				"text" => "New balance",
-				"color" => "#C3C3C3"
-			  ],
-			  [
-				"type" => "text",
-				"text" => "฿ 45.57",
-				"align" => "end"
-			  ]
-			]
-		  ],
-		  [
-			"type" => "separator",
-			"margin" => "lg",
-			"color" => "#C3C3C3"
-		  ]
+              [
+                "type" => "box",
+                "layout" => "vertical",
+                "contents" => [
+                  [
+                    "type" => "text",
+                    "contents" => [],
+                    "size" => "sm",
+                    "wrap" => true,
+                    "margin" => "lg",
+                    "color" => "#ffffffde",
+                    "text" => "Private Pool, Delivery box, Floor heating, Private Cinema"
+				  ]
+                ]
+            ],
+            "paddingAll" => "13px",
+            "backgroundColor" => "#ffffff1A",
+            "cornerRadius" => "2px",
+            "margin" => "xl"
 		]
-	  ],
-	  "footer" => [
-		"type" => "box",
-		"layout" => "vertical",
-		"spacing" => "sm",
-		"contents" => [
-		  [
-			"type" => "text",
-			"text" => "View Details",
-			"size" => "lg",
-			"align" => "center",
-			"color" => "#0084B6",
-			"action" => [
-			  "type" => "uri",
-			  "label" => "View Details",
-			  "uri" => "https://google.co.th/"
+		],
+		"footer" => [
+			"type" => "box",
+			"layout" => "vertical",
+			"paddingAll" => "8%",
+			"contents" => [
+				[
+					"type" => "text",
+					"text" => "คุณสามารถใช้รหัสนี้เป็นส่วนลด เมื่อจองบริการผ่าน Line เท่านั้น",
+					"size" => "xs",
+					"color" => "#B2B2B2"
+				  ]
 			]
-		  ]
 		]
-	  ]
+
 	]
 ];
 
