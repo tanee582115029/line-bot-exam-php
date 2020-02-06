@@ -381,6 +381,13 @@ $jsonShopFlex = [
 	"contents" => [
 	  "type" => "bubble",
 	  "direction" => "ltr",
+	  "hero" => [
+		"type" => "image",
+		"url" => "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_3_movie.png",
+		"size" => "full",
+		"aspectRatio" => "20:13",
+		"aspectMode" => "cover",
+	  ],
 	  "body" => [
 		"type" => "box",
 		"layout" => "vertical",
@@ -400,13 +407,11 @@ $jsonShopFlex = [
 			  [
 				"type" => "text",
 				"text" => "o",
-				"flex" => "1",
 				"color" => "#C3C3C3"
 			  ],
 			  [
 				"type" => "text",
 				"text" => "084-488-2035",
-				"flex" => "4",
 				"color" => "#000000"
 			  ]
 			]
@@ -419,13 +424,11 @@ $jsonShopFlex = [
 			  [
 				"type" => "text",
 				"text" => "o",
-				"flex" => "1",
 				"color" => "#C3C3C3"
 			  ],
 			  [
 				"type" => "text",
 				"text" => "123/21 เจียงใหม่ ไทยแลนด์",
-				"flex" => "4",
 				"color" => "#000000"
 			  ]
 			]
@@ -438,13 +441,11 @@ $jsonShopFlex = [
 				  [
 					"type" => "text",
 					"text" => "o",
-					"flex" => "1",
 					"color" => "#C3C3C3"
 				  ],
 				  [
 					"type" => "text",
 					"text" => "จันทร์ - ศุกร์ 19:00 - 24:00",
-					"flex" => "4",
 					"color" => "#000000"
 				  ]
 				]
