@@ -143,13 +143,27 @@ $jsonCanceledSlipFlex = [
 		"type" => "box",
 		"layout" => "vertical",
 		"contents" => [
-		  [
-			"type" => "text",
-			"text" => "#55555",
-			"size" => "3xl",
-			"weight" => "bold",
-			"color" => "#000000"
-		  ],
+			[
+				"type" => "box",
+				"layout" => "baseline",
+				"margin" => "lg",
+				"contents" => [
+					[
+						"type" => "text",
+						"text" => "#515521",
+						"size" => "3xl",
+						"weight" => "bold",
+						"color" => "#000000"
+					  ],
+					  [
+						"type" => "text",
+						"text" => "ยกเลิกแ้ว",
+						"size" => "md",
+						"weight" => "bold",
+						"color" => "#000000"
+					  ],
+				]
+			  ],
 		  [
 			"type" => "text",
 			"text" => "นวดแผนไทย สุดผ่อนคลาย",
@@ -159,7 +173,7 @@ $jsonCanceledSlipFlex = [
 		  ],
 		  [
 			"type" => "text",
-			"text" => "2019.02.14 21:47 (GMT+0700)",
+			"text" => "2019.02.14 21:47",
 			"size" => "xs",
 			"color" => "#B2B2B2"
 		  ]
