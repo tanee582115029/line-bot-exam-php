@@ -13,6 +13,7 @@ $jsonSlipFlex = [
 	  "header" => [
 		"type" => "box",
 		"layout" => "vertical",
+		"margin" => "lg",
 		"contents" => [
 		  [
 			"type" => "text",
@@ -45,7 +46,7 @@ $jsonSlipFlex = [
 		"contents" => [
 		  [
 			"type" => "separator",
-			"margin" => "xxl",
+			"margin" => "3xl",
 			"color" => "#C3C3C3"
 		  ],
 		  [
@@ -69,7 +70,7 @@ $jsonSlipFlex = [
 		  ],
 		  [
 			"type" => "separator",
-			"margin" => "xxl",
+			"margin" => "3xl",
 			"color" => "#C3C3C3"
 		  ],
 		  [
