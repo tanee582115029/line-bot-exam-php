@@ -364,12 +364,14 @@ $jsonShopFlex = [
 				"text" => "o",
 				"color" => "#C3C3C3",
 				"wrap"=> true,
+				"flex" => 1
 			  ],
 			  [
 				"type" => "text",
 				"text" => "084-488-2035",
 				"color" => "#000000",
 				"wrap" => true,
+				"flex" => 5
 			  ]
 			]
 		  ],
@@ -381,13 +383,16 @@ $jsonShopFlex = [
 			  [
 				"type" => "text",
 				"text" => "o",
-				"color" => "#C3C3C3"
+				"color" => "#C3C3C3",
+				"flex" => 1
 			  ],
 			  [
 				"type" => "text",
 				"text" => "123/21 เจียงใหม่ ไทยแลนด์",
 				"color" => "#000000",
 				"wrap" => true,
+				"flex" => 5
+
 			  ]
 			]
 			  ],
@@ -399,12 +404,15 @@ $jsonShopFlex = [
 				  [
 					"type" => "text",
 					"text" => "o",
-					"color" => "#C3C3C3"
+					"color" => "#C3C3C3",
+					"flex" => 1
 				  ],
 				  [
 					"type" => "text",
 					"text" => "จันทร์ - ศุกร์ 19:00 - 24:00",
-					"color" => "#000000"
+					"color" => "#000000",
+					"wrap" => true,
+					"flex" => 5
 				  ]
 				]
 			  ]
