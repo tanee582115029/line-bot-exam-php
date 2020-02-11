@@ -375,7 +375,7 @@ $jsonShopFlex = [
 				"text" => "084-488-2035",
 				"color" => "#000000",
 				"wrap" => true,
-				"flex" => 5
+				"flex" => 6
 			  ]
 			]
 		  ],
@@ -395,7 +395,7 @@ $jsonShopFlex = [
 				"text" => "123/21 เจียงใหม่ ไทยแลนด์",
 				"color" => "#000000",
 				"wrap" => true,
-				"flex" => 5
+				"flex" => 6
 
 			  ]
 			]
@@ -416,7 +416,7 @@ $jsonShopFlex = [
 					"text" => "จันทร์ - ศุกร์ 19:00 - 24:00",
 					"color" => "#000000",
 					"wrap" => true,
-					"flex" => 5
+					"flex" => 6
 				  ]
 				]
 			  ]
