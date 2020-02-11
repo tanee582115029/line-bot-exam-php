@@ -430,7 +430,7 @@ $jsonShopFlex = [
 			  [
 				"type" => "text",
 				"text" => "โทรออก",
-				"margin" => "lg",
+				"margin" => "xxl",
 				"size" => "lg",
 				"align" => "center",
 				"color" => "#3498DB",
@@ -443,7 +443,7 @@ $jsonShopFlex = [
 				[
 					"type" => "text",
 					"text" => "นำทาง",
-					"margin" => "lg",
+					"margin" => "xxl",
 					"size" => "lg",
 					"align" => "center",
 					"color" => "#3498DB",
@@ -456,7 +456,7 @@ $jsonShopFlex = [
 					[
 						"type" => "text",
 						"text" => "เพิ่มเติม",
-						"margin" => "lg",
+						"margin" => "xxl",
 						"size" => "lg",
 						"align" => "center",
 						"color" => "#3498DB",
