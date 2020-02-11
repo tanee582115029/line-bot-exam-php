@@ -435,9 +435,9 @@ $jsonShopFlex = [
 				"align" => "center",
 				"color" => "#3498DB",
 				"action" => [
-				  "type" => "message",
+				  "type" => "uri",
 				  "label" => "โทรออก",
-				  "text" => "โทรออก"
+				  "uri" => "line://call/66/844882035"
 				]
 				],
 				[
