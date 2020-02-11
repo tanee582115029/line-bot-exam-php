@@ -19,6 +19,7 @@ $jsonSlipFlex = [
 			"text" => "#55555",
 			"size" => "3xl",
 			"weight" => "bold",
+			"margin" => "md",
 			"color" => "#000000"
 		  ],
 		  [
@@ -26,13 +27,15 @@ $jsonSlipFlex = [
 			"text" => "นวดแผนไทย สุดผ่อนคลาย",
 			"size" => "lg",
 			"weight" => "bold",
-			"color" => "#000000"
+			"color" => "#000000",
+			"wrap" => true,
 		  ],
 		  [
 			"type" => "text",
 			"text" => "2019.02.14 21:47 (GMT+0700)",
 			"size" => "xs",
-			"color" => "#B2B2B2"
+			"color" => "#B2B2B2",
+			"wrap" => true,
 		  ]
 		]
 	  ],
@@ -42,7 +45,7 @@ $jsonSlipFlex = [
 		"contents" => [
 		  [
 			"type" => "separator",
-			"margin" => "lg",
+			"margin" => "xxl",
 			"color" => "#C3C3C3"
 		  ],
 		  [
@@ -66,7 +69,7 @@ $jsonSlipFlex = [
 		  ],
 		  [
 			"type" => "separator",
-			"margin" => "lg",
+			"margin" => "xxl",
 			"color" => "#C3C3C3"
 		  ],
 		  [
@@ -342,31 +345,6 @@ $jsonShopFlex = [
 		"size" => "full",
 		"aspectRatio" => "20:13",
 		"aspectMode" => "cover",
-		],
-		[
-			"type" => "box",
-			"layout" => "horizontal",
-			"contents" => [
-				[
-					"type" => "text",
-					"text" => "NEW",
-					"size" => "xs",
-					"color" => "#ffffff",
-					"align" => "center",
-					"gravity" => "center"
-				]
-			],
-			"backgroundColor" => "#EC3D44",
-			"paddingAll" => "2px",
-			"paddingStart" => "4px",
-			"paddingEnd" => "4px",
-			"flex" => 0,
-			"position" => "absolute",
-			"offsetStart" => "18px",
-			"offsetTop" => "18px",
-			"cornerRadius" => "100px",
-			"width" => "48px",
-			"height" => "25px"
 		],
 	  "body" => [
 		"type" => "box",
