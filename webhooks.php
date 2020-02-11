@@ -342,7 +342,32 @@ $jsonShopFlex = [
 		"size" => "full",
 		"aspectRatio" => "20:13",
 		"aspectMode" => "cover",
-	  ],
+		],
+		[
+			"type" => "box",
+			"layout" => "horizontal",
+			"contents" => [
+				[
+					"type" => "text",
+					"text" => "NEW",
+					"size" => "xs",
+					"color" => "#ffffff",
+					"align" => "center",
+					"gravity" => "center"
+				]
+			],
+			"backgroundColor" => "#EC3D44",
+			"paddingAll" => "2px",
+			"paddingStart" => "4px",
+			"paddingEnd" => "4px",
+			"flex" => 0,
+			"position" => "absolute",
+			"offsetStart" => "18px",
+			"offsetTop" => "18px",
+			"cornerRadius" => "100px",
+			"width" => "48px",
+			"height" => "25px"
+		],
 	  "body" => [
 		"type" => "box",
 		"layout" => "vertical",
@@ -429,7 +454,7 @@ $jsonShopFlex = [
 				"margin" => "lg",
 				"size" => "lg",
 				"align" => "center",
-				"color" => "#E74C3C",
+				"color" => "#3498DB",
 				"action" => [
 				  "type" => "message",
 				  "label" => "โทรออก",
@@ -442,7 +467,7 @@ $jsonShopFlex = [
 					"margin" => "lg",
 					"size" => "lg",
 					"align" => "center",
-					"color" => "#E74C3C",
+					"color" => "#3498DB",
 					"action" => [
 					  "type" => "message",
 					  "label" => "นำทาง",
@@ -455,7 +480,7 @@ $jsonShopFlex = [
 						"margin" => "lg",
 						"size" => "lg",
 						"align" => "center",
-						"color" => "#E74C3C",
+						"color" => "#3498DB",
 						"action" => [
 						  "type" => "message",
 						  "label" => "เพิ่มเติม",
