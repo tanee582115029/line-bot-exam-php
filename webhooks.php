@@ -362,12 +362,14 @@ $jsonShopFlex = [
 			  [
 				"type" => "text",
 				"text" => "o",
-				"color" => "#C3C3C3"
+				"color" => "#C3C3C3",
+				"wrap"=> true,
 			  ],
 			  [
 				"type" => "text",
 				"text" => "084-488-2035",
-				"color" => "#000000"
+				"color" => "#000000",
+				"wrap" => true,
 			  ]
 			]
 		  ],
@@ -384,7 +386,8 @@ $jsonShopFlex = [
 			  [
 				"type" => "text",
 				"text" => "123/21 เจียงใหม่ ไทยแลนด์",
-				"color" => "#000000"
+				"color" => "#000000",
+				"wrap" => true,
 			  ]
 			]
 			  ],
