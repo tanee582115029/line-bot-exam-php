@@ -29,12 +29,14 @@ $jsonSlipFlex = [
 			"size" => "lg",
 			"weight" => "bold",
 			"color" => "#000000",
+			"wrap" => true,
 		  ],
 		  [
 			"type" => "text",
 			"text" => "2019.02.14 21:47 (GMT+0700)",
 			"size" => "xs",
 			"color" => "#B2B2B2",
+			"wrap" => true,
 		  ]
 		]
 	  ],
