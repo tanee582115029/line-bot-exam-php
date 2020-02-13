@@ -13,12 +13,14 @@ $jsonSlipFlex = [
 	  "header" => [
 		"type" => "box",
 		"layout" => "vertical",
+		"margin" => "lg",
 		"contents" => [
 		  [
 			"type" => "text",
 			"text" => "#55555",
 			"size" => "3xl",
 			"weight" => "bold",
+			"margin" => "md",
 			"color" => "#000000"
 		  ],
 		  [
@@ -26,13 +28,15 @@ $jsonSlipFlex = [
 			"text" => "นวดแผนไทย สุดผ่อนคลาย",
 			"size" => "lg",
 			"weight" => "bold",
-			"color" => "#000000"
+			"color" => "#000000",
+			"wrap" => true,
 		  ],
 		  [
 			"type" => "text",
 			"text" => "2019.02.14 21:47 (GMT+0700)",
 			"size" => "xs",
-			"color" => "#B2B2B2"
+			"color" => "#B2B2B2",
+			"wrap" => true,
 		  ]
 		]
 	  ],
@@ -42,7 +46,7 @@ $jsonSlipFlex = [
 		"contents" => [
 		  [
 			"type" => "separator",
-			"margin" => "lg",
+			"margin" => "3xl",
 			"color" => "#C3C3C3"
 		  ],
 		  [
@@ -66,7 +70,7 @@ $jsonSlipFlex = [
 		  ],
 		  [
 			"type" => "separator",
-			"margin" => "lg",
+			"margin" => "3xl",
 			"color" => "#C3C3C3"
 		  ],
 		  [
@@ -323,7 +327,7 @@ $jsonShopFlex = [
 		"size" => "full",
 		"aspectRatio" => "20:13",
 		"aspectMode" => "cover",
-	  ],
+		],
 	  "body" => [
 		"type" => "box",
 		"layout" => "vertical",
@@ -337,52 +341,63 @@ $jsonShopFlex = [
 			],
 		  [
 			"type" => "box",
-			"layout" => "horizontal",
+			"layout" => "baseline",
 			"margin" => "xl",
 			"contents" => [
 			  [
 				"type" => "text",
 				"text" => "o",
-				"color" => "#C3C3C3"
+				"color" => "#C3C3C3",
+				"wrap"=> true,
+				"flex" => 1
 			  ],
 			  [
 				"type" => "text",
 				"text" => "084-488-2035",
-				"color" => "#000000"
+				"color" => "#000000",
+				"wrap" => true,
+				"flex" => 6
 			  ]
 			]
 		  ],
 		  [
 			"type" => "box",
-			"layout" => "horizontal",
+			"layout" => "baseline",
 			"margin" => "xl",
 			"contents" => [
 			  [
 				"type" => "text",
 				"text" => "o",
-				"color" => "#C3C3C3"
+				"color" => "#C3C3C3",
+				"flex" => 1
 			  ],
 			  [
 				"type" => "text",
 				"text" => "123/21 เจียงใหม่ ไทยแลนด์",
-				"color" => "#000000"
+				"color" => "#000000",
+				"wrap" => true,
+				"flex" => 6
+
 			  ]
 			]
 			  ],
 			  [
 				"type" => "box",
-				"layout" => "horizontal",
+				"layout" => "baseline",
 				"margin" => "xl",
 				"contents" => [
 				  [
 					"type" => "text",
 					"text" => "o",
-					"color" => "#C3C3C3"
+					"color" => "#C3C3C3",
+					"flex" => 1
 				  ],
 				  [
 					"type" => "text",
 					"text" => "จันทร์ - ศุกร์ 19:00 - 24:00",
-					"color" => "#000000"
+					"color" => "#000000",
+					"wrap" => true,
+					"flex" => 6
 				  ]
 				]
 			  ]
@@ -396,23 +411,23 @@ $jsonShopFlex = [
 			  [
 				"type" => "text",
 				"text" => "โทรออก",
-				"margin" => "lg",
+				"margin" => "xxl",
 				"size" => "lg",
 				"align" => "center",
-				"color" => "#E74C3C",
+				"color" => "#2E86C1",
 				"action" => [
-				  "type" => "message",
+				  "type" => "uri",
 				  "label" => "โทรออก",
-				  "text" => "โทรออก"
+				  "uri" => "line://call/66/844882035"
 				]
 				],
 				[
 					"type" => "text",
 					"text" => "นำทาง",
-					"margin" => "lg",
+					"margin" => "xxl",
 					"size" => "lg",
 					"align" => "center",
-					"color" => "#E74C3C",
+					"color" => "#2E86C1",
 					"action" => [
 					  "type" => "message",
 					  "label" => "นำทาง",
@@ -422,14 +437,14 @@ $jsonShopFlex = [
 					[
 						"type" => "text",
 						"text" => "เพิ่มเติม",
-						"margin" => "lg",
+						"margin" => "xxl",
 						"size" => "lg",
 						"align" => "center",
-						"color" => "#E74C3C",
+						"color" => "#2E86C1",
 						"action" => [
-						  "type" => "message",
+						  "type" => "uri",
 						  "label" => "เพิ่มเติม",
-						  "text" => "เพิ่มเติม"
+						  "uri" => "line://app/1577869522-PGQROEAY"
 						]
 					  ]
 			]
