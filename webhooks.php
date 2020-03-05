@@ -6,47 +6,50 @@ require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 $access_token = '/6tM7o48kVZwQTBP+/K1L7F6uI8byW6wBtRM3ICVxZwfDHCqeTmjhRjJ6cSyrd7r9ou/9wy44JbrvYW36om0tdHdyb4vfTdz+bDjE8av6AyxTLI6qNIYaVCqkJosO5vjzvc405AhhSfz4c94Y5RHlAdB04t89/1O/w1cDnyilFU=';
 $eiei = '
 {
-	"type": "template",
-	"altText": "this is a carousel template",
-	"template": {
-	  "type": "carousel",
-	  "actions": [],
-	  "columns": [
-		{
-		  "thumbnailImageUrl": "SPECIFY_YOUR_IMAGE_URL",
-		  "title": "Title",
-		  "text": "Text",
-		  "actions": [
-			{
-			  "type": "message",
-			  "label": "Action 1",
-			  "text": "Action 1"
-			},
-			{
-			  "type": "message",
-			  "label": "Action 2",
-			  "text": "Action 2"
-			}
-		  ]
-		},
-		{
-		  "thumbnailImageUrl": "SPECIFY_YOUR_IMAGE_URL",
-		  "title": "Title",
-		  "text": "Text",
-		  "actions": [
-			{
-			  "type": "message",
-			  "label": "Action 1",
-			  "text": "Action 1"
-			},
-			{
-			  "type": "message",
-			  "label": "Action 2",
-			  "text": "Action 2"
-			}
-		  ]
-		}
-	  ]
+	"type": "flex",
+	"altText": "Flex Message",
+	"contents": {
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "hero": {
+		"type": "image",
+		"url": "https://lh3.googleusercontent.com/proxy/-1c7kpqSBd9MstpLoL1SssBqYrwCIFRJEO0GHycFDq7ZfioJKWjNkF1Qn7jex6Z18Kr51k_W2Oa5vHimHAIDDMVdGQbvjHHu6tKcXSWQxfuOT8NSvjOfZGTi1VR8e9aYNA_y",
+		"align": "center",
+		"size": "full",
+		"aspectRatio": "4:3",
+		"aspectMode": "cover"
+	  },
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "text",
+			"text": "นวดแผนไทย สุดผ่อนคลาย",
+			"size": "lg",
+			"weight": "bold",
+			"color": "#000000",
+			"wrap": true
+		  },
+		  {
+			"type": "text",
+			"text": "ทุกวัน",
+			"margin": "sm",
+			"align": "start",
+			"color": "#B9B9B9",
+			"wrap": true
+		  },
+		  {
+			"type": "text",
+			"text": "1,000.00 ฿",
+			"margin": "xl",
+			"size": "lg",
+			"weight": "bold",
+			"color": "#3361F4",
+			"wrap": true
+		  }
+		]
+	  }
 	}
   }
 ';
@@ -72,7 +75,7 @@ if (!is_null($events['events'])) {
 
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'services') {
-			$messages = json_decode($eiei);
+			$messages = $eiei;
 		}
 
 		// Make a POST Request to Messaging API to reply to sender
