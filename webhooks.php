@@ -762,7 +762,7 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['text'] == 'mybooking') {
 			$messages = json_decode($bookingJson,true);
 		}
-		if ($event['type'] == 'message' && $event['message']['text'] == 'canceled') {
+		if ($event['type'] == 'message' && $event['message']['text'] == 'cancel') {
 			$messages = json_decode($canceledJson,true);
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
