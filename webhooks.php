@@ -72,7 +72,7 @@ if (!is_null($events['events'])) {
 
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'services') {
-			$messages = json_encode($eiei);
+			$messages = json_decode($eiei);
 		}
 
 		// Make a POST Request to Messaging API to reply to sender
