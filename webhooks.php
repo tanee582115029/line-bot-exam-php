@@ -40,7 +40,7 @@ if (!is_null($events['events'])) {
 			$messages = json_decode(file_get_contents("promotions.json"),true);
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'mybooking') {
-			$code = '#46547';
+			$code = "#46547";
 			$mybooking_json = json_decode(file_get_contents("mybooking.json"),true);
 			$mybooking_json['contents']['header']['contents'][0]['text'] = $code;
 			$mybooking_json['contents']['header']['contents'][1]['text'] = 'นวดฝ่าเท้า';
@@ -49,7 +49,7 @@ if (!is_null($events['events'])) {
 			$mybooking_json['contents']['body']['contents'][1]['contents'][1]['text'] = '9,899 ฿';
 			$mybooking_json['contents']['body']['contents'][3]['contents'][1]['text'] = 'เจ้น้ำ';
 			$mybooking_json['contents']['body']['contents'][4]['contents'][1]['text'] = 'ขอมือเบาๆ';
-			$mybooking_json['contents']['footer']['contents'][1]['text'] = 'cancel'.$code;
+			$mybooking_json['contents']['footer']['contents'][1]['text'] = "cancel".$code;
 
 			$messages = $mybooking_json;
 		}
