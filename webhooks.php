@@ -29,7 +29,11 @@ if (!is_null($events['events'])) {
 
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'services') {
-			$messages = json_decode(file_get_contents("services.json"),true);
+			$jservice = json_decode(file_get_contents("services.json"),true);
+			$jservice['body']['content'][0]['text'] = 'นวดฝ่าเท้า';
+			$jservice['body']['content'][1]['text'] = 'จ อ พฤ ศ';
+			$jservice['body']['content'][2]['text'] = '9,999 ฿';
+			$messages = $jservice;
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'promotions') {
 			$messages = json_decode(file_get_contents("promotions.json"),true);
