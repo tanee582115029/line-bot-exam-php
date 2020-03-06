@@ -27,7 +27,7 @@ if (!is_null($events['events'])) {
 		// 		'text' => $text
 		// 	];
 
-		}
+		//}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'services') {
 			$service_json = json_decode(file_get_contents("services.json"),true);
 			$service_json['contents']['hero']['url'] = 'https://lh3.googleusercontent.com/proxy/-1c7kpqSBd9MstpLoL1SssBqYrwCIFRJEO0GHycFDq7ZfioJKWjNkF1Qn7jex6Z18Kr51k_W2Oa5vHimHAIDDMVdGQbvjHHu6tKcXSWQxfuOT8NSvjOfZGTi1VR8e9aYNA_y';
