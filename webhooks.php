@@ -47,12 +47,16 @@ $servicesJson = '
 			"weight": "bold",
 			"color": "#3361F4",
 			"wrap": true
+		  },
+		  {
+			"type": "spacer",
+			"size": "xl"
 		  }
 		]
 	  }
 	}
-  }'
-;
+  }
+';
 
 $promotionsJson = '
 {
@@ -123,10 +127,6 @@ $promotionsJson = '
 				"wrap": true
 			  }
 			],
-			"paddingAll": "13px",
-            "backgroundColor": "#ffffff1A",
-            "cornerRadius": "2px",
-            "margin": "xl"
 		  }
 		]
 	  },
@@ -211,7 +211,7 @@ $bookingJson = '
 		  {
 			"type": "separator",
 			"margin": "xl",
-			"color": "#9F9B9B"
+			"color": "#DFDFDF"
 		  },
 		  {
 			"type": "box",
@@ -239,7 +239,7 @@ $bookingJson = '
 		  {
 			"type": "separator",
 			"margin": "xl",
-			"color": "#9F9B9B"
+			"color": "#DFDFDF"
 		  },
 		  {
 			"type": "box",
@@ -320,7 +320,6 @@ $canceledJson = '
 		"layout": "vertical",
 		"flex": 1,
 		"spacing": "none",
-		"margin": "none",
 		"contents": [
 		  {
 			"type": "box",
@@ -374,7 +373,7 @@ $canceledJson = '
 		  {
 			"type": "separator",
 			"margin": "xl",
-			"color": "#9F9B9B"
+			"color": "#DFDFDF"
 		  },
 		  {
 			"type": "box",
@@ -402,12 +401,12 @@ $canceledJson = '
 		  {
 			"type": "separator",
 			"margin": "xl",
-			"color": "#9F9B9B"
+			"color": "#DFDFDF"
 		  },
 		  {
 			"type": "box",
 			"layout": "baseline",
-			"margin": "lg",
+			"margin": "xxl",
 			"contents": [
 			  {
 				"type": "text",
@@ -595,6 +594,85 @@ $shopinfoJson = '
   }
 ';
 
+$shopCerJson = '
+{
+	"type": "flex",
+	"altText": "Flex Message",
+	"contents": {
+	  "type": "bubble",
+	  "direction": "ltr",
+	  "header": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "text",
+			"text": "รินทร์ มูลสาร",
+			"size": "lg",
+			"align": "start",
+			"weight": "bold",
+			"color": "#000000"
+		  },
+		  {
+			"type": "box",
+			"layout": "baseline",
+			"spacing": "xl",
+			"margin": "sm",
+			"contents": [
+			  {
+				"type": "icon",
+				"url": "https://cdn3.iconfinder.com/data/icons/unicons-vector-icons-pack/32/phone-512.png",
+				"margin": "lg",
+				"size": "xs",
+				"aspectRatio": "1:1"
+			  },
+			  {
+				"type": "text",
+				"text": "081-232-5559",
+				"size": "sm",
+				"align": "start",
+				"gravity": "center",
+				"color": "#000000",
+				"wrap": true
+			  }
+			]
+		  }
+		]
+	  },
+	  "hero": {
+		"type": "image",
+		"url": "https://i.pinimg.com/originals/bd/bb/c9/bdbbc96c652bcaad20c3ff13cffeda7c.png",
+		"align": "center",
+		"gravity": "center",
+		"size": "full",
+		"aspectRatio": "1.51:1",
+		"aspectMode": "fit"
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+		  {
+			"type": "spacer",
+			"size": "xxl"
+		  },
+		  {
+			"type": "button",
+			"action": {
+			  "type": "uri",
+			  "label": "โทรออก",
+			  "uri": "https://linecorp.com"
+			}
+		  },
+		  {
+			"type": "spacer"
+		  }
+		]
+	  }
+	}
+  }
+';
+
 
 
 // Get POST body content
@@ -630,6 +708,9 @@ if (!is_null($events['events'])) {
 			$messages = json_decode($canceledJson,true);
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
+			$messages = json_decode($shopinfoJson,true);
+		}
+		if ($event['type'] == 'message' && $event['message']['text'] == 'cer') {
 			$messages = json_decode($shopinfoJson,true);
 		}
 
