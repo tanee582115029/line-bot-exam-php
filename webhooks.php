@@ -53,7 +53,7 @@ if (!is_null($events['events'])) {
 			$mybooking_json['contents']['footer']['contents'][1]['action']['data'] = $code;
 			$messages = $mybooking_json;
 		}
-		if ($event['type'] == 'message' && $event['message']['text'] == 'cancel') {
+		if ($event['type'] == 'postback') {
 			// $messages = json_decode(file_get_contents("confirmCancel.json"),true);
 			$messages = $event['postback']['data'];
 		}
