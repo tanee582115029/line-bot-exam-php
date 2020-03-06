@@ -10,14 +10,14 @@
         "contents": [
           {
             "type": "text",
-            "text": "#54545",
+            "text": "@code",
             "size": "xl",
             "align": "start",
             "weight": "bold"
           },
           {
             "type": "text",
-            "text": "นวดแผนไทย สุดผ่อนคลาย",
+            "text": "@service_name",
             "margin": "md",
             "size": "lg",
             "align": "start",
@@ -27,7 +27,7 @@
           },
           {
             "type": "text",
-            "text": "01/01/2020, 09:00-12:00",
+            "text": "@datetime",
             "margin": "sm",
             "size": "xs",
             "align": "start",
@@ -52,7 +52,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "x2",
+                "text": "@amount",
                 "flex": 1,
                 "size": "xs",
                 "color": "#9F9B9B",
@@ -60,7 +60,7 @@
               },
               {
                 "type": "text",
-                "text": "฿ 2,000.00 ",
+                "text": "@price",
                 "size": "xs",
                 "align": "end",
                 "weight": "bold",
@@ -87,7 +87,7 @@
               },
               {
                 "type": "text",
-                "text": "รินทร์ มูลสาร",
+                "text": "@customer_name",
                 "size": "sm",
                 "align": "end",
                 "color": "#4E4D4D",
@@ -107,7 +107,7 @@
               },
               {
                 "type": "text",
-                "text": "ขอคนมือหนักๆครับ ชอบความรุนแรง",
+                "text": "@note",
                 "size": "sm",
                 "align": "end",
                 "color": "#4E4D4D",
@@ -130,7 +130,7 @@
             "action": {
               "type": "message",
               "label": "ยกเลิกการจอง",
-              "text": "cancel"
+              "text": "@calcel_text"
             },
             "color": "#EE6868"
           },
