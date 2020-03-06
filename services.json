@@ -18,7 +18,7 @@
         "contents": [
           {
             "type": "text",
-            "text": "@name",
+            "text": "@service_name",
             "size": "lg",
             "weight": "bold",
             "color": "#000000",

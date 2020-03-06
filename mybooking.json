@@ -130,7 +130,7 @@
             "action": {
               "type": "message",
               "label": "ยกเลิกการจอง",
-              "text": "@calcel_text"
+              "text": "@cancel_text"
             },
             "color": "#EE6868"
           },
