@@ -1,0 +1,144 @@
+{
+    "type": "flex",
+    "altText": "Flex Message",
+    "contents": {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "flex": 1,
+        "spacing": "none",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "#54545",
+                "size": "xl",
+                "align": "start",
+                "gravity": "center",
+                "weight": "bold",
+                "wrap": true
+              },
+              {
+                "type": "image",
+                "url": "https://www.rochesterfirst.com/wp-content/uploads/sites/66/2019/01/canceled-520x247_1548805365403_69480133_ver1.0.jpg",
+                "margin": "none",
+                "align": "end",
+                "gravity": "top",
+                "size": "md",
+                "aspectRatio": "2:1"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "นวดแผนไทย สุดผ่อนคลาย",
+            "margin": "none",
+            "size": "lg",
+            "align": "start",
+            "weight": "bold",
+            "color": "#000000",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "01/01/2020, 09:00-12:00",
+            "margin": "sm",
+            "size": "xs",
+            "align": "start",
+            "color": "#9F9B9B",
+            "wrap": true
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "margin": "xl",
+            "color": "#DFDFDF"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "margin": "xl",
+            "contents": [
+              {
+                "type": "text",
+                "text": "x2",
+                "flex": 1,
+                "size": "xs",
+                "color": "#9F9B9B",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "฿ 2,000.00 ",
+                "size": "xs",
+                "align": "end",
+                "weight": "bold",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "xl",
+            "color": "#DFDFDF"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "margin": "xxl",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ผู้จอง:",
+                "size": "sm",
+                "color": "#9F9B9B",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "รินทร์ มูลสาร",
+                "size": "sm",
+                "align": "end",
+                "color": "#4E4D4D",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "margin": "lg",
+            "contents": [
+              {
+                "type": "text",
+                "text": "หมายเหตุ:",
+                "color": "#9F9B9B"
+              },
+              {
+                "type": "text",
+                "text": "ขอคนมือหนักๆครับ ชอบความรุนแรง",
+                "size": "sm",
+                "align": "end",
+                "color": "#4E4D4D",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "size": "xxl"
+          }
+        ]
+      }
+    }
+  }

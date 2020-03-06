@@ -1,0 +1,144 @@
+{
+    "type": "flex",
+    "altText": "Flex Message",
+    "contents": {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "#54545",
+            "size": "xl",
+            "align": "start",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "นวดแผนไทย สุดผ่อนคลาย",
+            "margin": "md",
+            "size": "lg",
+            "align": "start",
+            "weight": "bold",
+            "color": "#000000",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "01/01/2020, 09:00-12:00",
+            "margin": "sm",
+            "size": "xs",
+            "align": "start",
+            "color": "#9F9B9B",
+            "wrap": true
+          }
+        ]
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "margin": "xl",
+            "color": "#DFDFDF"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "margin": "xl",
+            "contents": [
+              {
+                "type": "text",
+                "text": "x2",
+                "flex": 1,
+                "size": "xs",
+                "color": "#9F9B9B",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "฿ 2,000.00 ",
+                "size": "xs",
+                "align": "end",
+                "weight": "bold",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "xl",
+            "color": "#DFDFDF"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "margin": "xxl",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ผู้จอง:",
+                "size": "sm",
+                "color": "#9F9B9B",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "รินทร์ มูลสาร",
+                "size": "sm",
+                "align": "end",
+                "color": "#4E4D4D",
+                "wrap": true
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "margin": "lg",
+            "contents": [
+              {
+                "type": "text",
+                "text": "หมายเหตุ:",
+                "color": "#9F9B9B"
+              },
+              {
+                "type": "text",
+                "text": "ขอคนมือหนักๆครับ ชอบความรุนแรง",
+                "size": "sm",
+                "align": "end",
+                "color": "#4E4D4D",
+                "wrap": true
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "spacer",
+            "size": "xl"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "ยกเลิกการจอง",
+              "text": "cancel"
+            },
+            "color": "#EE6868"
+          },
+          {
+            "type": "spacer",
+            "size": "xxl"
+          }
+        ]
+      }
+    }
+  }
