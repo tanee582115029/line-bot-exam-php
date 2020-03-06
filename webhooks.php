@@ -126,7 +126,7 @@ $promotionsJson = '
 				"color": "#000000",
 				"wrap": true
 			  }
-			],
+			]
 		  }
 		]
 	  },
@@ -244,7 +244,7 @@ $bookingJson = '
 		  {
 			"type": "box",
 			"layout": "baseline",
-			"margin": "lg",
+			"margin": "xxl",
 			"contents": [
 			  {
 				"type": "text",
@@ -696,7 +696,7 @@ if (!is_null($events['events'])) {
 
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'services') {
-			$messages = json_decode($servicesJson,true);
+			$messages = json_decode(file_get_contents("services.json"),true);
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'promotions') {
 			$messages = json_decode($promotionsJson,true);
