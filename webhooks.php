@@ -59,246 +59,108 @@ $promotionsJson = '
 	"type": "flex",
 	"altText": "Flex Message",
 	"contents": {
-	  "type": "carousel",
-	  "contents": [
-		{
-		  "type": "bubble",
-		  "hero": {
-			"type": "image",
-			"url": "https://notebookspec.com/web/wp-content/uploads/2018/06/201806266417008724.jpg",
-			"size": "full",
-			"aspectRatio": "20:13",
-			"aspectMode": "cover",
-			"action": {
-			  "type": "uri",
-			  "label": "Action",
-			  "uri": "https://linecorp.com/"
-			}
-		  },
-		  "body": {
-			"type": "box",
-			"layout": "vertical",
-			"spacing": "md",
-			"contents": [
-			  {
-				"type": "text",
-				"text": "จองล่วงหน้าลดทันที",
-				"size": "lg",
-				"gravity": "center",
-				"weight": "bold",
-				"wrap": true
-			  },
-			  {
-				"type": "text",
-				"text": "31/01/2020 - 29/02/2020",
-				"size": "sm",
-				"align": "start",
-				"weight": "bold",
-				"color": "#C8C4C4",
-				"wrap": true
-			  },
-			  {
-				"type": "text",
-				"text": "ลด 15%",
-				"size": "md",
-				"weight": "bold",
-				"color": "#F75353",
-				"wrap": true
-			  },
-			  {
-				"type": "text",
-				"text": "PREBOOK15",
-				"size": "lg",
-				"align": "center",
-				"gravity": "center",
-				"weight": "bold",
-				"color": "#000000",
-				"wrap": true
-			  }
-			]
-		  },
-		  "footer": {
-			"type": "box",
-			"layout": "vertical",
-			"margin": "xxl",
-			"contents": [
-			  {
-				"type": "text",
-				"text": "คุณสามารถใช้รหัสนี้เป็นส่วนลด เมื่อจองบริการผ่าน line เท่านั้น",
-				"margin": "xxl",
-				"size": "xs",
-				"align": "start",
-				"gravity": "bottom",
-				"weight": "regular",
-				"color": "#C5C3C3",
-				"wrap": true
-			  },
-			  {
-				"type": "spacer",
-				"size": "xxl"
-			  }
-			]
-		  }
-		},
-		{
-		  "type": "bubble",
-		  "hero": {
-			"type": "image",
-			"url": "https://notebookspec.com/web/wp-content/uploads/2018/06/201806266417008724.jpg",
-			"size": "full",
-			"aspectRatio": "20:13",
-			"aspectMode": "cover",
-			"action": {
-			  "type": "uri",
-			  "label": "Action",
-			  "uri": "https://linecorp.com/"
-			}
-		  },
-		  "body": {
-			"type": "box",
-			"layout": "vertical",
-			"spacing": "md",
-			"contents": [
-			  {
-				"type": "text",
-				"text": "จองล่วงหน้าลดทันที",
-				"size": "lg",
-				"gravity": "center",
-				"weight": "bold",
-				"wrap": true
-			  },
-			  {
-				"type": "text",
-				"text": "31/01/2020 - 29/02/2020",
-				"size": "sm",
-				"align": "start",
-				"weight": "bold",
-				"color": "#C8C4C4",
-				"wrap": true
-			  },
-			  {
-				"type": "text",
-				"text": "ลด 15%",
-				"size": "md",
-				"weight": "bold",
-				"color": "#F75353",
-				"wrap": true
-			  },
-			  {
-				"type": "text",
-				"text": "PREBOOK15",
-				"size": "lg",
-				"align": "center",
-				"gravity": "center",
-				"weight": "bold",
-				"color": "#000000",
-				"wrap": true
-			  }
-			]
-		  },
-		  "footer": {
-			"type": "box",
-			"layout": "vertical",
-			"margin": "xxl",
-			"contents": [
-			  {
-				"type": "text",
-				"text": "คุณสามารถใช้รหัสนี้เป็นส่วนลด เมื่อจองบริการผ่าน line เท่านั้น",
-				"margin": "xxl",
-				"size": "xs",
-				"align": "start",
-				"gravity": "bottom",
-				"weight": "regular",
-				"color": "#C5C3C3",
-				"wrap": true
-			  },
-			  {
-				"type": "spacer",
-				"size": "xxl"
-			  }
-			]
-		  }
-		},
-		{
-		  "type": "bubble",
-		  "hero": {
-			"type": "image",
-			"url": "https://notebookspec.com/web/wp-content/uploads/2018/06/201806266417008724.jpg",
-			"size": "full",
-			"aspectRatio": "20:13",
-			"aspectMode": "cover",
-			"action": {
-			  "type": "uri",
-			  "label": "Action",
-			  "uri": "https://linecorp.com/"
-			}
-		  },
-		  "body": {
-			"type": "box",
-			"layout": "vertical",
-			"spacing": "md",
-			"contents": [
-			  {
-				"type": "text",
-				"text": "จองล่วงหน้าลดทันที",
-				"size": "lg",
-				"gravity": "center",
-				"weight": "bold",
-				"wrap": true
-			  },
-			  {
-				"type": "text",
-				"text": "31/01/2020 - 29/02/2020",
-				"size": "sm",
-				"align": "start",
-				"weight": "bold",
-				"color": "#C8C4C4",
-				"wrap": true
-			  },
-			  {
-				"type": "text",
-				"text": "ลด 15%",
-				"size": "md",
-				"weight": "bold",
-				"color": "#F75353",
-				"wrap": true
-			  },
-			  {
-				"type": "text",
-				"text": "PREBOOK15",
-				"size": "lg",
-				"align": "center",
-				"gravity": "center",
-				"weight": "bold",
-				"color": "#000000",
-				"wrap": true
-			  }
-			]
-		  },
-		  "footer": {
-			"type": "box",
-			"layout": "vertical",
-			"margin": "xxl",
-			"contents": [
-			  {
-				"type": "text",
-				"text": "คุณสามารถใช้รหัสนี้เป็นส่วนลด เมื่อจองบริการผ่าน line เท่านั้น",
-				"margin": "xxl",
-				"size": "xs",
-				"align": "start",
-				"gravity": "bottom",
-				"weight": "regular",
-				"color": "#C5C3C3",
-				"wrap": true
-			  },
-			  {
-				"type": "spacer",
-				"size": "xxl"
-			  }
-			]
-		  }
+	  "type": "bubble",
+	  "hero": {
+		"type": "image",
+		"url": "https://notebookspec.com/web/wp-content/uploads/2018/06/201806266417008724.jpg",
+		"size": "full",
+		"aspectRatio": "20:13",
+		"aspectMode": "cover",
+		"action": {
+		  "type": "uri",
+		  "label": "Action",
+		  "uri": "https://linecorp.com/"
 		}
-	  ]
+	  },
+	  "body": {
+		"type": "box",
+		"layout": "vertical",
+		"spacing": "md",
+		"contents": [
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "จองล่วงหน้าลดทันที",
+				"size": "lg",
+				"gravity": "center",
+				"weight": "bold",
+				"wrap": true
+			  },
+			  {
+				"type": "text",
+				"text": "31/01/2020 - 29/02/2020",
+				"size": "sm",
+				"align": "start",
+				"weight": "bold",
+				"color": "#C8C4C4",
+				"wrap": true
+			  },
+			  {
+				"type": "text",
+				"text": "ลด 15%",
+				"size": "md",
+				"weight": "bold",
+				"color": "#F75353",
+				"wrap": true
+			  }
+			]
+		  },
+		  {
+			"type": "box",
+			"layout": "vertical",
+			"contents": [
+			  {
+				"type": "text",
+				"text": "PREBOOK15",
+				"size": "lg",
+				"align": "center",
+				"gravity": "center",
+				"weight": "bold",
+				"color": "#000000",
+				"wrap": true
+			  }
+			],
+			"paddingAll": "13px",
+            "backgroundColor": "#ffffff1A",
+            "cornerRadius": "2px",
+            "margin": "xl"
+		  }
+		]
+	  },
+	  "footer": {
+		"type": "box",
+		"layout": "vertical",
+		"margin": "xxl",
+		"contents": [
+		  {
+			"type": "text",
+			"text": "คุณสามารถใช้รหัสนี้เป็นส่วนลด เมื่อจองบริการผ่าน line เท่านั้น",
+			"margin": "xxl",
+			"size": "xs",
+			"align": "start",
+			"gravity": "bottom",
+			"weight": "regular",
+			"color": "#C5C3C3",
+			"wrap": true
+		  },
+		  {
+			"type": "spacer",
+			"size": "xxl"
+		  }
+		]
+	  },
+	  "styles": {
+		"hero": {
+		  "backgroundColor": "#FFFFFF"
+		},
+		"body": {
+		  "backgroundColor": "#FFFFFF",
+		  "separatorColor": "#FFFFFF"
+		}
+	  }
 	}
   }
 ';
@@ -732,6 +594,8 @@ $shopinfoJson = '
 	}
   }
 ';
+
+
 
 // Get POST body content
 $content = file_get_contents('php://input');
