@@ -49,7 +49,7 @@ if (!is_null($events['events'])) {
 			$mybooking_json['contents']['body']['contents'][1]['contents'][1]['text'] = '9,899 ฿';
 			$mybooking_json['contents']['body']['contents'][3]['contents'][1]['text'] = 'เจ้น้ำ';
 			$mybooking_json['contents']['body']['contents'][4]['contents'][1]['text'] = 'ขอมือเบาๆ';
-			$mybooking_json['contents']['footer']['contents'][1]['action']['text'] = "cancel" .$code;
+			$mybooking_json['contents']['footer']['contents'][1]['action']['text'] = "cancel";
 			$mybooking_json['contents']['footer']['contents'][1]['action']['data'] = $code;
 			$messages = $mybooking_json;
 		}
