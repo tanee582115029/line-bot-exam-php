@@ -5,9 +5,10 @@
       "type": "confirm",
       "actions": [
         {
-          "type": "message",
+          "type": "postback",
           "label": "Yes",
-          "text": "Yes"
+          "displayText": "@Yes",
+          "data": "Yes"
         },
         {
           "type": "message",
