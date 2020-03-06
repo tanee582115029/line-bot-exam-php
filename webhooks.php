@@ -58,11 +58,18 @@ if (!is_null($events['events'])) {
 			if($data[0] == 'action=cancel') {
 				$con_json = json_decode(file_get_contents("confirmCancel.json"),true);
 				$con_json['contents']['footer']['contents'][0]['contents'][0]['action']['data'] = 'action=yescancel' .$data[1];
-				$messages = $con_json;
+				$con_json['contents']['footer']['contents'][0]['contents'][1]['action']['data'] = 'action=nocancel' .$data[1];
+				$messages = $con_json; 
 			}
 			if($data[0] == 'action=yescancel') {
 				$cancel_json = json_decode(file_get_contents("cancel.json"),true);
 				$messages = $cancel_json;
+			}
+			if($data[0] == 'action=nocancel') {
+				$messages = [
+					'type' => 'text',
+					'text' => 'no no no'
+				];
 			}
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
