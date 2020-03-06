@@ -53,7 +53,13 @@ if (!is_null($events['events'])) {
 			$messages = $mybooking_json;
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'cancel') {
-			$messages = json_decode(file_get_contents("cancel.json"),true);
+			$messages = json_decode(file_get_contents("confirmCancel.json"),true);
+			if ($event['type'] == 'message' && $event['message']['text'] == 'Yes') {
+				$messages = json_decode(file_get_contents("cancel.json"),true);
+			}
+			if ($event['type'] == 'message' && $event['message']['text'] == 'No') {
+				$messages = 'wrong!!';
+			}
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
 			$messages = json_decode(file_get_contents("shopinfo.json"),true);
