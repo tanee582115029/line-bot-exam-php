@@ -55,7 +55,7 @@ if (!is_null($events['events'])) {
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'cancel') {
 			// $messages = json_decode(file_get_contents("confirmCancel.json"),true);
-			$messages = $event['message']['data'];
+			$messages = $event['postback']['data'];
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
 			$messages = json_decode(file_get_contents("shopinfo.json"),true);
