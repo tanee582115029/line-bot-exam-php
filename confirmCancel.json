@@ -7,13 +7,13 @@
         {
           "type": "postback",
           "label": "Yes",
-          "displayText": "@Yes",
+          "displayText": "Yes",
           "data": "Yes"
         },
         {
           "type": "postback",
           "label": "No",
-          "displayText": "@No",
+          "displayText": "No",
           "data": "No"
         }
       ],

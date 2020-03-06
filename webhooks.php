@@ -57,14 +57,14 @@ if (!is_null($events['events'])) {
 			$data = explode("&", $event['postback']['data']);
 			if($data[0] == 'action=cancel') {
 				$con_json = json_decode(file_get_contents("confirmCancel.json"),true);
-				$con_json['template']['action'][0]['displayText'] = $data[1];
-				$con_json['template']['action'][0]['data'] = $data[1];
+				$con_json['template']['action'][0]['data'] = 'action=yescancel' .$data[1];
 				$messages = $con_json;
 			}
-			// $messages = [
-			// 	'type' => 'text',
-			// 	'text' => $event['postback']['data']
-			// ];
+			if($data[0] == 'action=yescancel') {
+				$con_json = json_decode(file_get_contents("cancel.json"),true);
+				$con_json['template']['action'][0]['data'] = 'action=yescancel' .$data[1];
+				$messages = $con_json;
+			}
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
 			$messages = json_decode(file_get_contents("shopinfo.json"),true);
