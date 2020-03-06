@@ -63,7 +63,7 @@ if (!is_null($events['events'])) {
 				$messages = $con_json; 
 			}
 			if($data[0] == 'action=yescancel') {
-				$cancel_json = json_decode(file_get_contents("cancel.json"),true);
+				$cancel_json = json_decode(file_get_contents("mybooking.json"),true);
 				$messages = $cancel_json;
 			}
 			if($data[0] == 'action=nocancel') {
