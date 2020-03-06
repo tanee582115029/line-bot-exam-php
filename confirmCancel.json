@@ -11,9 +11,10 @@
           "data": "Yes"
         },
         {
-          "type": "message",
+          "type": "postback",
           "label": "No",
-          "text": "No"
+          "displayText": "@No",
+          "data": "No"
         }
       ],
       "text": "ยืนยันการยกเลิก"
