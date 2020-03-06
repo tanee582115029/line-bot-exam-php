@@ -130,7 +130,7 @@
             "action": {
               "type": "postback",
               "label": "ยกเลิกการจอง",
-              "text": "@cancel_text",
+              "displayText": "@cancel_text",
               "data": "0"
             },
             "color": "#EE6868"

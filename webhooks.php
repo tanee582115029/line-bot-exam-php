@@ -17,15 +17,15 @@ if (!is_null($events['events'])) {
 	// Loop through each event
 	foreach ($events['events'] as $event) {
 		// Reply only when message sent is in 'text' format
-		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
-			// Get text sent
-			$text = $event['source']['userId'];
+		// if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
+		// 	// Get text sent
+		// 	$text = $event['source']['userId'];
 
-			// Build message to reply back
-			$messages = [
-				'type' => 'text',
-				'text' => $text
-			];
+		// 	// Build message to reply back
+		// 	$messages = [
+		// 		'type' => 'text',
+		// 		'text' => $text
+		// 	];
 
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'services') {
@@ -55,7 +55,10 @@ if (!is_null($events['events'])) {
 		}
 		if ($event['type'] == 'postback') {
 			// $messages = json_decode(file_get_contents("confirmCancel.json"),true);
-			$messages = $event['postback']['data'];
+			$messages = [
+				'type' => 'text',
+				'text' => $event['postback']['data']
+			];
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
 			$messages = json_decode(file_get_contents("shopinfo.json"),true);
