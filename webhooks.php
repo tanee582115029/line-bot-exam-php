@@ -45,10 +45,10 @@ if (!is_null($events['events'])) {
 			$mybooking_json['contents']['header']['contents'][0]['text'] = $code;
 			$mybooking_json['contents']['header']['contents'][1]['text'] = 'นวดฝ่าเท้า';
 			$mybooking_json['contents']['header']['contents'][2]['text'] = '12/12/2020, 19:00';
-			$mybooking_json['contents']['body']['contents'][1]['contents'][0]['text'] = 'x76';
-			$mybooking_json['contents']['body']['contents'][1]['contents'][1]['text'] = '9,899 ฿';
-			$mybooking_json['contents']['body']['contents'][3]['contents'][1]['text'] = 'เจ้น้ำ';
-			$mybooking_json['contents']['body']['contents'][4]['contents'][1]['text'] = 'ขอมือเบาๆ';
+			// $mybooking_json['contents']['body']['contents'][1]['contents'][0]['text'] = 'x76';
+			// $mybooking_json['contents']['body']['contents'][1]['contents'][1]['text'] = '9,899 ฿';
+			// $mybooking_json['contents']['body']['contents'][3]['contents'][1]['text'] = 'เจ้น้ำ';
+			// $mybooking_json['contents']['body']['contents'][4]['contents'][1]['text'] = 'ขอมือเบาๆ';
 			$mybooking_json['contents']['footer']['contents'][1]['text'] = 'cancel'.$code;
 
 			$messages = $mybooking_json;
