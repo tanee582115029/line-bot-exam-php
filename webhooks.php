@@ -57,8 +57,8 @@ if (!is_null($events['events'])) {
 			$data = explode("&", $event['postback']['data']);
 			if($data[0] == 'action=cancel') {
 				$con_json = json_decode(file_get_contents("confirmCancel.json"),true);
-				$con_json['contents']['header']['contents'][0]['text'] = 'ยกเลิกจริงป่ะจ้ะ';
-				// $con_json['contents']['footer']['contents'][0]['contents'][0]['action']['data'] = 'action=yescancel' .$data[1];
+				$con_json['contents']['header']['contents'][0]['text'] = 'ยกเลิกจริงป่ะจ้ะ'.$data[1];
+				$con_json['contents']['footer']['contents'][0]['contents'][0]['action']['data'] = 'action=yescancel' .$data[1];
 				// $con_json['contents']['footer']['contents'][0]['contents'][1]['action']['data'] = 'action=nocancel' .$data[1];
 				$messages = $con_json; 
 			}
