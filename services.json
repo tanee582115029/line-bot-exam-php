@@ -6,7 +6,7 @@
       "direction": "ltr",
       "hero": {
         "type": "image",
-        "url": "https://lh3.googleusercontent.com/proxy/-1c7kpqSBd9MstpLoL1SssBqYrwCIFRJEO0GHycFDq7ZfioJKWjNkF1Qn7jex6Z18Kr51k_W2Oa5vHimHAIDDMVdGQbvjHHu6tKcXSWQxfuOT8NSvjOfZGTi1VR8e9aYNA_y",
+        "url": "https://developers.line.biz/assets/images/services/bot-designer-icon.png",
         "align": "center",
         "size": "full",
         "aspectRatio": "4:3",
@@ -18,7 +18,7 @@
         "contents": [
           {
             "type": "text",
-            "text": "นวดแผนไทย สุดผ่อนคลาย",
+            "text": "@name",
             "size": "lg",
             "weight": "bold",
             "color": "#000000",
@@ -26,7 +26,7 @@
           },
           {
             "type": "text",
-            "text": "ทุกวัน",
+            "text": "@weekly",
             "margin": "sm",
             "align": "start",
             "color": "#B9B9B9",
@@ -34,7 +34,7 @@
           },
           {
             "type": "text",
-            "text": "1,000.00 ฿",
+            "text": "@totol_price ฿",
             "margin": "xl",
             "size": "lg",
             "weight": "bold",
