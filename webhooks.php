@@ -50,16 +50,12 @@ if (!is_null($events['events'])) {
 			$mybooking_json['contents']['body']['contents'][3]['contents'][1]['text'] = 'เจ้น้ำ';
 			$mybooking_json['contents']['body']['contents'][4]['contents'][1]['text'] = 'ขอมือเบาๆ';
 			$mybooking_json['contents']['footer']['contents'][1]['action']['text'] = "cancel" .$code;
+			$mybooking_json['contents']['footer']['contents'][1]['action']['data'] = $code;
 			$messages = $mybooking_json;
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'cancel') {
-			$messages = json_decode(file_get_contents("confirmCancel.json"),true);
-			if ($event['type'] == 'message' && $event['message']['text'] == 'Yes') {
-				$messages = json_decode(file_get_contents("cancel.json"),true);
-			}
-			if ($event['type'] == 'message' && $event['message']['text'] == 'No') {
-				$messages = 'wrong!!';
-			}
+			// $messages = json_decode(file_get_contents("confirmCancel.json"),true);
+			$messages = $event['message']['data'];
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
 			$messages = json_decode(file_get_contents("shopinfo.json"),true);
