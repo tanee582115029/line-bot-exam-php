@@ -76,14 +76,14 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
 			$content = json_decode(file_get_contents("content.json"),true);
 			$names = ['tew', 'fon', 'sai', 'beer'];
-			$contens = [];
+			$contents = [];
 			foreach($names as $key => $name){
-				$content['contents']['text'] = $name;
-				$contens[] = $content;
+				$content['body']['contents'][0]['text'] = $name;
+				$contents[] = $content;
 			}
 
 			$header = json_decode(file_get_contents("header.json"),true);
-			$header['contents']['contents'] = $contens;
+			$header['contents']['contents'] = $contents;
 
 			
 			$messages = json_decode(file_get_contents("header.json"),true);
