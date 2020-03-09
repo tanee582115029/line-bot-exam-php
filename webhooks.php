@@ -77,13 +77,14 @@ if (!is_null($events['events'])) {
 			$content = json_decode(file_get_contents("content.json"),true);
 			// $names = ['tew', 'fon', 'sai', 'beer'];
 			$contents = array();
-			foreach($names as $key => $name){
-				$content['body']['contents'][0]['text'] = $name;
-				//$contents[] = json_encode($content);
-				array_push($contents, json_encode($content));
-			}
+			// foreach($names as $key => $name){
+			// 	$content['body']['contents'][0]['text'] = $name;
+			// 	//$contents[] = json_encode($content);
+			// 	array_push($contents, json_encode($content));
+			// }
 
 			//$contents = json_encode($content);
+			array_push($contents, json_encode($content));
 
 			$header = json_decode(file_get_contents("header.json"),true);
 			$header['contents']['contents'] = $contents;
