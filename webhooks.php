@@ -74,19 +74,21 @@ if (!is_null($events['events'])) {
 			}
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
-			$content = json_decode(file_get_contents("content.json"),true);
-			$names = ['tew', 'fon', 'sai', 'beer'];
-			$contents = [];
-			foreach($names as $key => $name){
-				$content['body']['contents'][0]['text'] = $name;
-				$contents[] = $content;
-			}
+			// $content = json_decode(file_get_contents("content.json"),true);
+			// $names = ['tew', 'fon', 'sai', 'beer'];
+			// $contents = [];
+			// foreach($names as $key => $name){
+			// 	$content['body']['contents'][0]['text'] = $name;
+			// 	$contents[] = $content;
+			// }
 
-			$header = json_decode(file_get_contents("header.json"),true);
-			$header['contents']['contents'] = $contents;
+			// $header = json_decode(file_get_contents("header.json"),true);
+			// $header['contents']['contents'] = $contents;
 
 			
-			$messages = json_decode(file_get_contents("header.json"),true);
+			// $messages = json_decode(file_get_contents("header.json"),true);
+			$messages = json_decode(file_get_contents("cc.json"),true);
+
 		}
 		
 		// Get replyToken
