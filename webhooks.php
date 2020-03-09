@@ -78,9 +78,7 @@ if (!is_null($events['events'])) {
 			$shop['contents']['footer']['contents'][2]['action']['uri'] = 'line://app/1653820423-za7j7lnx';
 			$messages = $shop;
 		}
-		// if ($event['type'] == 'message' && $event['message']['text'] == 'contact') {
-		// 	$messages = 'line://app/1653820423-3EKQK8AR';
-		// }
+
 
 		// Get replyToken
 		$replyToken = $event['replyToken'];
