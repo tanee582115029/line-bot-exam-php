@@ -74,7 +74,7 @@ if (!is_null($events['events'])) {
 			}
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
-			$content = json_decode(file_get_contents("content.json"),true);
+			//$content = json_decode(file_get_contents("content.json"),true);
 			// $names = ['tew', 'fon', 'sai', 'beer'];
 			$contents = array();
 			// foreach($names as $key => $name){
@@ -84,7 +84,7 @@ if (!is_null($events['events'])) {
 			// }
 
 			//$contents = json_encode($content);
-			array_push($contents, json_encode($content));
+			array_push($contents, file_get_contents("content.json"));
 
 			$header = json_decode(file_get_contents("header.json"),true);
 			$header['contents']['contents'] = $contents;
