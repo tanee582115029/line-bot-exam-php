@@ -74,13 +74,20 @@ if (!is_null($events['events'])) {
 			}
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
-			$messages = json_decode(file_get_contents("shopinfo.json"),true);
-		}
-		// if ($event['type'] == 'message' && $event['message']['text'] == 'cer') {
-		// 	$messages = json_decode(file_get_contents("cer.json"),true);
-		// }
+			$content = json_decode(file_get_contents("content.json"),true);
+			$names = ['tew', 'fon', 'sai', 'beer'];
+			$contens = [];
+			foreach($names as $key => $name){
+				$content['contents']['text'] = $name;
+				$contens[] = $content;
+			}
 
-		// Make a POST Request to Messaging API to reply to sender
+			$header = json_decode(file_get_contents("header.json"),true);
+			$header['contents']['contents'] = $contens;
+
+			
+			$messages = json_decode(file_get_contents("header.json"),true);
+		}
 		
 		// Get replyToken
 		$replyToken = $event['replyToken'];
