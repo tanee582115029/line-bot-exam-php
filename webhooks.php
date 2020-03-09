@@ -74,9 +74,14 @@ if (!is_null($events['events'])) {
 			}
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
-			$messages = json_decode(file_get_contents("shopinfo.json"),true);
+			$shop = json_decode(file_get_contents("shopinfo.json"),true);
+			$shop['contents']['footer']['contents'][2]['action']['uri'] = 'line://app/1653820423-3EKQK8AR';
+			$messages = $shop;
 		}
-		
+		// if ($event['type'] == 'message' && $event['message']['text'] == 'contact') {
+		// 	$messages = 'line://app/1653820423-3EKQK8AR';
+		// }
+
 		// Get replyToken
 		$replyToken = $event['replyToken'];
 		$url = 'https://api.line.me/v2/bot/message/reply';
