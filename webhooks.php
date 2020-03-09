@@ -82,7 +82,7 @@ if (!is_null($events['events'])) {
 			// 	$contents[] = json_encode($content);
 			// }
 
-			$contents[] = json_encode($content);
+			$contents = json_encode($content);
 
 			$header = json_decode(file_get_contents("header.json"),true);
 			$header['contents']['contents'] = $contents;
