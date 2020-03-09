@@ -131,9 +131,11 @@ if (!is_null($events['events'])) {
 			// }
 			$contents = [];
 			foreach($names as $key => $name){
+				$data = [];
 				$content = json_decode(file_get_contents("content.json"),true);
-				$content['body']['contents'][0]['text'] = $names->name;
-				$contents[] = $content; 
+				//$content['body']['contents'][0]['text'] = $names->name;
+				$data[] = $content;
+				$contents[] = $data; 
 			}
 			$header = json_decode(file_get_contents("header.json"),true);
 			$header['contents']['contents'] = $contents;
