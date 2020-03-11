@@ -25,7 +25,7 @@
               },
               {
                 "type": "image",
-                "url": "https://www.rochesterfirst.com/wp-content/uploads/sites/66/2019/01/canceled-520x247_1548805365403_69480133_ver1.0.jpg",
+                "url": "/cancel.png",
                 "margin": "none",
                 "align": "end",
                 "gravity": "top",
