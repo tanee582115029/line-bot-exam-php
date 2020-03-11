@@ -74,8 +74,8 @@ if (!is_null($events['events'])) {
 			}
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
-			$lat = "18.7939966";
-			$long = "98.9686399";
+			$lat = "18.7473893";
+			$long = "99.0248103";
 			$zoom = "17z";
 			$shop = json_decode(file_get_contents("shopinfo.json"),true);
 			$shop['contents']['footer']['contents'][1]['action']['uri'] = 'https://www.google.com/maps/@' .$lat. ',' .$long. ',' . $zoom;
