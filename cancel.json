@@ -25,7 +25,7 @@
               },
               {
                 "type": "image",
-                "url": "/cancel.png",
+                "url": "images/cancel.png",
                 "margin": "none",
                 "align": "end",
                 "gravity": "top",
