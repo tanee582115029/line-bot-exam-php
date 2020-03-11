@@ -29,8 +29,8 @@
                 "margin": "none",
                 "align": "end",
                 "gravity": "top",
-                "size": "md",
-                "aspectRatio": "2:1"
+                "size": "sm",
+                "aspectRatio": "1:1"
               }
             ]
           },
