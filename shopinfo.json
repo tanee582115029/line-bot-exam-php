@@ -103,7 +103,7 @@
             "action": {
               "type": "uri",
               "label": "โทรออก",
-              "uri": "line://oaMessage/@953meoks/"
+              "uri": "line://oaMessage/@953meoks/?"
             },
             "height": "sm",
             "style": "link"
