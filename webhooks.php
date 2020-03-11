@@ -74,11 +74,14 @@ if (!is_null($events['events'])) {
 			}
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
+			$lat = "18.7941743";
+			$long = "98.9576578";
+			$zoom = "15z";
 			$shop = json_decode(file_get_contents("shopinfo.json"),true);
+			$shop['contents']['footer']['contents'][1]['action']['uri'] = 'https://www.google.com/maps/@' .$lat. ',' .$long. ',' . $zoom;
 			$shop['contents']['footer']['contents'][2]['action']['uri'] = 'line://app/1653820423-za7j7lnx';
 			$messages = $shop;
 		}
-
 
 		// Get replyToken
 		$replyToken = $event['replyToken'];
