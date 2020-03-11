@@ -74,9 +74,9 @@ if (!is_null($events['events'])) {
 			}
 		}
 		if ($event['type'] == 'message' && $event['message']['text'] == 'shopinfo') {
-			$lat = "18.7473893";
-			$long = "99.0248103";
-			$zoom = "17z";
+			$lat = "18.767178";
+			$long = "99.036672";
+			$zoom = "15z";
 			$shop = json_decode(file_get_contents("shopinfo.json"),true);
 			$shop['contents']['footer']['contents'][1]['action']['uri'] = 'https://www.google.com/maps/@' .$lat. ',' .$long. ',' . $zoom;
 			$shop['contents']['footer']['contents'][2]['action']['uri'] = 'line://app/1653820423-za7j7lnx';
