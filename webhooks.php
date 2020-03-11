@@ -83,6 +83,19 @@ if (!is_null($events['events'])) {
 			$messages = $shop;
 		}
 
+		if ($event['type'] == 'message' && $event['message']['text'] == 'search') {
+			$lat = "18.767178";
+			$long = "99.036672";
+			$zoom = "15z";
+			$shop = json_decode(file_get_contents("shopinfo.json"),true);
+			$shop['contents']['footer']['contents'][1]['action']['uri'] = 'https://www.google.com/maps/@' .$lat. ',' .$long. ',' . $zoom;
+			$shop['contents']['footer']['contents'][2]['action']['uri'] = 'line://app/1653820423-Nwm5mj09';
+			$messages = $shop;
+		}
+
+		
+
+
 		// Get replyToken
 		$replyToken = $event['replyToken'];
 		$url = 'https://api.line.me/v2/bot/message/reply';
